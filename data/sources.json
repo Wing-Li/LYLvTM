@@ -1,0 +1,98 @@
+[
+  {
+    "id": "source-national-basic-public-health",
+    "title": "国家基本公共卫生服务规范（第三版）：孕产妇健康管理",
+    "organization": "国家卫生健康委/基层卫生健康相关规范",
+    "url": "https://www.gl.gov.cn/xjwz/ztzl/qmtjjczwgkbzhgfhgzzl/xxgk/wsjk/ggwsfw/202011/P020201112627259341951.pdf",
+    "accessedDate": "2026-05-24",
+    "note": "用于孕 13 周前建立母子健康手册、首次产检等全国性流程参考。"
+  },
+  {
+    "id": "source-pregnancy-care-guide-2018",
+    "title": "孕前和孕期保健指南（2018）",
+    "organization": "中华医学会围产医学分会等",
+    "url": "https://rs.yiigle.com/cmaid/1047809",
+    "accessedDate": "2026-05-24",
+    "note": "用于孕期产检、NT 等孕周窗口参考，具体以医生和医院安排为准。"
+  },
+  {
+    "id": "source-acog-ectopic-pregnancy",
+    "title": "Ectopic Pregnancy",
+    "organization": "ACOG",
+    "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy",
+    "accessedDate": "2026-05-24",
+    "note": "用于早孕定位、超声与 HCG 结合判断的安全边界说明。"
+  },
+  {
+    "id": "source-cleveland-hcg",
+    "title": "Human Chorionic Gonadotropin (hCG)",
+    "organization": "Cleveland Clinic",
+    "url": "https://my.clevelandclinic.org/health/articles/22489-human-chorionic-gonadotropin",
+    "accessedDate": "2026-05-24",
+    "note": "用于说明早孕 hCG 单次数值与趋势判断。"
+  },
+  {
+    "id": "cdc-folic-acid",
+    "title": "Folic Acid",
+    "organization": "CDC",
+    "url": "https://www.cdc.gov/folic-acid/about/index.html",
+    "accessedDate": "2026-05-24",
+    "note": "用于叶酸 400 mcg/0.4 mg 基础建议和神经管缺陷预防说明。"
+  },
+  {
+    "id": "acog-healthy-eating",
+    "title": "Healthy Eating During Pregnancy",
+    "organization": "ACOG",
+    "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy",
+    "accessedDate": "2026-05-24",
+    "note": "用于孕期营养、叶酸、铁、碘、胆碱等基础参考。"
+  },
+  {
+    "id": "nih-pregnancy-supplements",
+    "title": "Dietary Supplements and Pregnancy",
+    "organization": "NIH Office of Dietary Supplements",
+    "url": "https://ods.od.nih.gov/factsheets/Pregnancy/",
+    "accessedDate": "2026-05-24",
+    "note": "用于孕期营养补充剂概览，具体剂量仍需医生确认。"
+  },
+  {
+    "id": "cdc-alcohol-pregnancy",
+    "title": "About Alcohol and Pregnancy",
+    "organization": "CDC",
+    "url": "https://www.cdc.gov/alcohol-pregnancy/about/index.html",
+    "accessedDate": "2026-05-24",
+    "note": "用于孕期禁酒提醒。"
+  },
+  {
+    "id": "acog-caffeine",
+    "title": "Moderate Caffeine Consumption During Pregnancy",
+    "organization": "ACOG",
+    "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy",
+    "accessedDate": "2026-05-24",
+    "note": "用于孕期咖啡因 200 mg/天以内的常见参考。"
+  },
+  {
+    "id": "cdc-food-safety-pregnant",
+    "title": "Safer Food Choices for Pregnant Women",
+    "organization": "CDC",
+    "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html",
+    "accessedDate": "2026-05-24",
+    "note": "用于孕期食品安全和李斯特菌等食源性风险提醒。"
+  },
+  {
+    "id": "acog-listeria",
+    "title": "Listeria and Pregnancy",
+    "organization": "ACOG",
+    "url": "https://www.acog.org/womens-health/faqs/listeria-and-pregnancy",
+    "accessedDate": "2026-05-24",
+    "note": "用于孕期李斯特菌风险、症状和食品处理提醒。"
+  },
+  {
+    "id": "acog-exercise",
+    "title": "Exercise During Pregnancy",
+    "organization": "ACOG",
+    "url": "https://www.acog.org/womens-health/faqs/exercise-during-pregnancy",
+    "accessedDate": "2026-05-24",
+    "note": "用于孕期运动和每周 150 分钟中等强度运动参考。"
+  }
+]

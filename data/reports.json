@@ -1,0 +1,29 @@
+[
+  {
+    "id": "report-20260524-blood-pregnancy-confirmation",
+    "date": "2026-05-24",
+    "type": "血检",
+    "gestationalAge": "按末次月经约孕 3 周 + 3 天",
+    "institution": "西安雁塔大爱妇产医院",
+    "department": "妇六",
+    "imagePaths": [
+      "images/抽血验早孕.jpg"
+    ],
+    "siteImagePaths": [
+      "assets/images/抽血验早孕.jpg"
+    ],
+    "facts": [
+      "β-HCG：516 mIU/ml",
+      "孕酮（Pro）：26.73 ng/ml",
+      "临床诊断：停经待查",
+      "标本类型：血清"
+    ],
+    "doctorConclusions": [],
+    "aiSummary": "血检结果支持已经怀孕，但单次 β-HCG 不能判断趋势、宫内孕或胚胎发育情况；后续需按医生安排复查或超声确认。",
+    "questionsForDoctor": [
+      "是否需要 48 小时左右复查 β-HCG 和孕酮？",
+      "什么时候做早孕 B 超确认宫内孕和孕周？",
+      "是否需要开始或调整叶酸/复合维生素？"
+    ]
+  }
+]

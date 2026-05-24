@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>宝宝成长档案</title>
+  <link rel="stylesheet" href="assets/app.css">
+  <script src="assets/fragments.js"></script>
+</head>
+<body>
+  <script>accessGate();</script>
+  <main class="app">
+    <script>siteHeader("首页");</script>
+
+    <section class="hero-grid">
+      <article class="card hero-card">
+        <div class="hero-content">
+          <span class="pill" data-today-pill>今天 · 2026-05-24 · 第一次确认</span>
+          <h1 class="hero-title" data-week-title>孕 3 周<br>+ 3 天</h1>
+          <p class="hero-copy" data-due-copy>预产期约 2027-02-04。现在还很早，后续以医生和早孕 B 超校正为准。</p>
+          <div class="memory-note">首页只保留最重要的摘要。报告、交流记录、来源和知识库已经拆到二级页面，后续内容多了也不会挤在一起。</div>
+          <div class="progress-wrap">
+            <div class="progress-line" aria-label="孕期进度"><span></span></div>
+            <div class="progress-meta">
+              <span data-month-label>第 1 孕月</span>
+              <span data-key-countdown>距离 13 周建册节点约 67 天</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <aside class="card section-card">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">接下来最重要的事</h2>
+            <p class="section-subtitle">首页只放优先事项，完整列表见待办页。</p>
+          </div>
+          <a class="button-link secondary" href="tasks.html">全部待办</a>
+        </div>
+        <div class="task-list">
+          <article class="task">
+            <div class="task-icon" style="background:#d6a15e"><svg viewBox="0 0 24 24" fill="none"><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" stroke="currentColor" stroke-width="2"/></svg></div>
+            <div><h3>问医生是否需要复查 HCG / 孕酮</h3><p>单次结果不能判断趋势，按医生安排复查或预约。</p></div>
+            <span class="badge badge-yellow">尽快</span>
+          </article>
+          <article class="task">
+            <div class="task-icon" style="background:#6eb8ad"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16v12H4z" stroke="currentColor" stroke-width="2"/><path d="M8 11h8M8 15h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <div><h3>预约早孕 B 超确认宫内孕</h3><p>具体时间听医生安排，结果会影响孕周和预产期校正。</p></div>
+            <span class="badge badge-blue">待医生</span>
+          </article>
+          <article class="task">
+            <div class="task-icon" style="background:#d49372"><svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v16H6z" stroke="currentColor" stroke-width="2"/><path d="M9 8h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <div><h3>开始叶酸和孕早期注意事项确认</h3><p>叶酸、饮食、食品安全、运动等已整理到知识库。</p></div>
+            <span class="badge badge-red">今天看</span>
+          </article>
+        </div>
+      </aside>
+    </section>
+
+    <section class="content-grid">
+      <article class="card section-card">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">最近检查</h2>
+            <p class="section-subtitle">点击进入详情页，可看大图和待问医生问题。</p>
+          </div>
+          <a class="button-link secondary" href="reports/2026-05-24-blood-test.html">查看详情</a>
+        </div>
+        <div class="report-row">
+          <a class="report-paper" href="reports/2026-05-24-blood-test.html" aria-label="查看血检详情">
+            <img src="assets/images/抽血验早孕.jpg" alt="2026-05-24 抽血验早孕报告">
+          </a>
+          <div>
+            <p class="report-copy">西安雁塔大爱妇产医院血检。当前仅记录事实，具体判断以医生结论为准。</p>
+            <div class="metrics">
+              <div class="metric"><strong>516</strong><span>β-HCG mIU/ml</span></div>
+              <div class="metric"><strong>26.73</strong><span>孕酮 ng/ml</span></div>
+              <div class="metric"><strong>待问</strong><span>复查安排</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card section-card">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">常用入口</h2>
+            <p class="section-subtitle">内容多了以后从二级页面查看。</p>
+          </div>
+          <span class="pill">工程化</span>
+        </div>
+        <div class="quick-links">
+          <a class="quick-link" href="knowledge.html">知识库<small>叶酸、饮食、风险信号</small></a>
+          <a class="quick-link" href="tasks.html">待办提醒<small>日期、材料、坑位</small></a>
+          <a class="quick-link" href="conversations/2026-05-24-project-and-ui-design.html">交流记录<small>重要对话摘要</small></a>
+          <a class="quick-link" href="sources.html">来源<small>权威链接和适用说明</small></a>
+        </div>
+      </article>
+    </section>
+
+    <section class="card section-card wide-section">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">时间线摘要</h2>
+          <p class="section-subtitle">这里只放关键节点，详情进入对应页面。</p>
+        </div>
+        <span class="pill">初版</span>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2026-04-30</div>
+          <div><h3 class="timeline-title">末次月经</h3><p class="timeline-text">当前孕周和预产期暂按这个日期粗算，后续可能被早孕 B 超校正。</p></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026-05-24</div>
+          <div><h3 class="timeline-title">抽血确认怀孕</h3><p class="timeline-text">β-HCG 516 mIU/ml，孕酮 26.73 ng/ml。下一步问医生是否复查，并确认早孕 B 超时间。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <p class="footer">本页面只做家庭记录和提醒，不能替代医生诊疗。</p>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+</html>

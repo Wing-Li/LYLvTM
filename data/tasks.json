@@ -1,0 +1,111 @@
+[
+  {
+    "id": "ask-doctor-hcg-progesterone-followup",
+    "title": "问医生是否需要复查 HCG / 孕酮",
+    "category": "产检",
+    "status": "未开始",
+    "urgency": "yellow",
+    "gestationalWindow": "孕早期确认阶段",
+    "idealStartDate": "2026-05-24",
+    "latestDate": "2026-05-27",
+    "remindFromDate": "2026-05-24",
+    "whyItMatters": "单次血值只能作为当前事实，趋势和超声更能帮助医生判断下一步。",
+    "missedWindowImpact": "可能延后确认复查或超声安排。",
+    "prepItems": [
+      "带上 2026-05-24 血检报告照片或纸质报告",
+      "记录末次月经 2026-04-30",
+      "准备最近症状和用药/补充剂情况"
+    ],
+    "questionsToAsk": [
+      "是否需要复查 β-HCG？间隔多久？",
+      "孕酮是否需要复查或干预？",
+      "早孕 B 超建议在什么时候预约？"
+    ],
+    "localVerification": "医院待核实",
+    "sources": [
+      "source-acog-ectopic-pregnancy",
+      "source-cleveland-hcg"
+    ]
+  },
+  {
+    "id": "early-ultrasound-confirm-location",
+    "title": "预约早孕 B 超确认宫内孕",
+    "category": "产检",
+    "status": "需核实",
+    "urgency": "blue",
+    "gestationalWindow": "孕早期，具体时间听医生安排",
+    "idealStartDate": "2026-06-11",
+    "latestDate": "2026-06-30",
+    "remindFromDate": "2026-06-04",
+    "whyItMatters": "早孕超声可帮助确认妊娠位置、孕周和后续预产期校正。",
+    "missedWindowImpact": "可能延后确认宫内孕和孕周，影响后续提醒准确性。",
+    "prepItems": [
+      "确认医生建议的超声时间",
+      "预约产科或妇科早孕超声",
+      "带既往血检报告"
+    ],
+    "questionsToAsk": [
+      "这次超声是否用于确认宫内孕？",
+      "是否会根据超声校正预产期？",
+      "下次产检或建册建议什么时候做？"
+    ],
+    "localVerification": "医院待核实",
+    "sources": [
+      "source-acog-ectopic-pregnancy"
+    ]
+  },
+  {
+    "id": "xian-maternal-child-handbook",
+    "title": "核实西安建册/母子健康手册材料",
+    "category": "建档",
+    "status": "需核实",
+    "urgency": "green",
+    "gestationalWindow": "孕 13 周前完成首次孕产妇健康管理更稳妥",
+    "idealStartDate": "2026-06-15",
+    "latestDate": "2026-07-29",
+    "remindFromDate": "2026-06-10",
+    "whyItMatters": "建册/母子健康手册和首次产检会影响后续规范产检、筛查预约和社区管理。",
+    "missedWindowImpact": "可能需要补材料、跑社区或医院，影响后续产检衔接。",
+    "prepItems": [
+      "核实所在区县和社区卫生服务中心",
+      "核实目标医院是否要求先建册或预约建档",
+      "准备身份证、结婚证、居住/户籍相关材料等，具体以本地要求为准"
+    ],
+    "questionsToAsk": [
+      "我们所在社区在哪里办理母子健康手册？",
+      "目标医院建档是否有孕周或号源限制？",
+      "需要哪些证件和检查结果？"
+    ],
+    "localVerification": "西安/社区待核实",
+    "sources": [
+      "source-national-basic-public-health"
+    ]
+  },
+  {
+    "id": "nt-appointment-window",
+    "title": "提前准备 NT 筛查预约",
+    "category": "筛查",
+    "status": "未开始",
+    "urgency": "yellow",
+    "gestationalWindow": "通常为孕 11 周至 13 周 + 6 天",
+    "idealStartDate": "2026-07-01",
+    "latestDate": "2026-07-29",
+    "remindFromDate": "2026-06-25",
+    "whyItMatters": "NT 属于严格孕周窗口项目，预约晚了可能错过合适时间。",
+    "missedWindowImpact": "错过后可能需要改走其他筛查/评估路径，具体听医生安排。",
+    "prepItems": [
+      "确认建册/建档是否会影响 NT 预约",
+      "确认目标医院 NT 预约方式和号源",
+      "确认是否同期做早唐或其他筛查"
+    ],
+    "questionsToAsk": [
+      "NT 在本院如何预约？需要提前多久？",
+      "是否要求已有母子健康手册或建档？",
+      "是否建议早唐、无创 DNA 或其他筛查？"
+    ],
+    "localVerification": "医院待核实",
+    "sources": [
+      "source-pregnancy-care-guide-2018"
+    ]
+  }
+]

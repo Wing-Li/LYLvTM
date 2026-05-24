@@ -1,0 +1,6 @@
+﻿interface:
+  display_name: "孕期页面发布"
+  short_description: "生成带提醒和密码门的孕期静态页面"
+  default_prompt: "Use $pregnancy-html-publisher to update the pregnancy HTML dashboard for Cloudflare deployment."
+policy:
+  allow_implicit_invocation: true

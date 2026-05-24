@@ -1,0 +1,6 @@
+﻿interface:
+  display_name: "孕期资料查证"
+  short_description: "查证孕产育儿知识和西安本地流程"
+  default_prompt: "Use $pregnancy-research-validator to research this pregnancy question with authoritative and Xi'an-local sources."
+policy:
+  allow_implicit_invocation: true

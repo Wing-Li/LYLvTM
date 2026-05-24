@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>待办提醒 - 宝宝成长档案</title>
+  <link rel="stylesheet" href="assets/app.css">
+  <script src="assets/fragments.js"></script>
+</head>
+<body>
+  <script>accessGate();</script>
+  <main class="app">
+    <script>siteHeader("待办提醒");</script>
+
+    <section class="card hero-card">
+      <div class="hero-content">
+        <span class="pill">流程、材料、坑位</span>
+        <h1 class="hero-title">不要错过<br>关键时间窗</h1>
+        <p class="hero-copy">这里放完整待办。首页只显示最紧急的几条，后续新增检查或医生建议后，这里会继续扩展。</p>
+      </div>
+    </section>
+
+    <section class="card section-card wide-section">
+      <div class="task-list">
+        <article class="task" id="hcg-followup">
+          <div class="task-icon" style="background:#d6a15e"></div>
+          <div><h3>问医生是否需要复查 HCG / 孕酮</h3><p>理想开始：2026-05-24；最晚建议：2026-05-27。带血检报告、末次月经日期、症状和补剂情况。</p></div>
+          <span class="badge badge-yellow">尽快</span>
+        </article>
+        <article class="task" id="early-ultrasound">
+          <div class="task-icon" style="background:#6eb8ad"></div>
+          <div><h3>预约早孕 B 超确认宫内孕</h3><p>提醒从 2026-06-04 开始；具体时间听医生安排。用于确认妊娠位置、孕周和预产期校正。</p></div>
+          <span class="badge badge-blue">待医生</span>
+        </article>
+        <article class="task" id="xian-handbook">
+          <div class="task-icon" style="background:#d49372"></div>
+          <div><h3>核实西安建册/母子健康手册材料</h3><p>提醒从 2026-06-10 开始；目标在 2026-07-29 前完成。区县、社区、目标医院规则需要单独核实。</p></div>
+          <span class="badge badge-green">西安待核实</span>
+        </article>
+        <article class="task" id="nt-window">
+          <div class="task-icon" style="background:#b96b56"></div>
+          <div><h3>提前准备 NT 筛查预约</h3><p>常见窗口：孕 11 周至 13 周 + 6 天。提醒从 2026-06-25 开始，避免因号源或建档要求错过。</p></div>
+          <span class="badge badge-red">严窗口</span>
+        </article>
+        <article class="task">
+          <div class="task-icon" style="background:#d49372"></div>
+          <div><h3>唐筛/无创 DNA 咨询</h3><p>后续和医生确认适合哪种筛查、时间、资质机构和知情同意要求。</p></div>
+          <span class="badge badge-gray">后续</span>
+        </article>
+        <article class="task">
+          <div class="task-icon" style="background:#d49372"></div>
+          <div><h3>系统超声/大排畸</h3><p>中孕期项目，后续按医生安排预约；先占位，等孕周接近后展开。</p></div>
+          <span class="badge badge-gray">后续</span>
+        </article>
+        <article class="task">
+          <div class="task-icon" style="background:#d49372"></div>
+          <div><h3>糖耐筛查</h3><p>常见在 24-28 周附近，后续按产检医生安排。</p></div>
+          <span class="badge badge-gray">后续</span>
+        </article>
+      </div>
+    </section>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+</html>

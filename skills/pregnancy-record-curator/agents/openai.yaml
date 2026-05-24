@@ -1,0 +1,6 @@
+﻿interface:
+  display_name: "孕期记录整理"
+  short_description: "整理孕期报告、日记、症状和医生记录"
+  default_prompt: "Use $pregnancy-record-curator to organize the latest pregnancy records into facts, doctor notes, AI summaries, and questions."
+policy:
+  allow_implicit_invocation: true

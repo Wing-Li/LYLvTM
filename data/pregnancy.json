@@ -1,0 +1,18 @@
+{
+  "familyName": "宝宝成长档案",
+  "lastMenstrualPeriod": "2026-04-30",
+  "estimatedDueDate": "2027-02-04",
+  "datingBasis": "按末次月经粗算，后续以医生和早孕 B 超校正为准",
+  "confirmedDate": "2026-05-24",
+  "currentAsOf": "2026-05-24",
+  "location": {
+    "city": "西安",
+    "district": "待补充",
+    "targetHospital": "待补充"
+  },
+  "privacy": {
+    "audience": "夫妻和少数家人",
+    "redactionDefault": false,
+    "passwordHint": "默认密码是 lyltm"
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "folic-acid",
+    "title": "叶酸：现在就该确认并补起来",
+    "category": "营养补充",
+    "priority": "high",
+    "summary": "无特殊高危因素时，每日 400 mcg/0.4 mg 级别是常见基础建议；高风险、既往病史或正在用药时必须让医生定剂量。",
+    "doctorConfirm": true,
+    "sources": ["cdc-folic-acid", "acog-healthy-eating"]
+  },
+  {
+    "id": "prenatal-vitamins",
+    "title": "复合维生素、维生素 D、铁、碘、胆碱",
+    "category": "营养补充",
+    "priority": "medium",
+    "summary": "这些营养素可能很重要，但不要自己叠加多种补剂；先把正在吃的东西列给医生，由医生确认种类和剂量。",
+    "doctorConfirm": true,
+    "sources": ["acog-healthy-eating", "nih-pregnancy-supplements"]
+  },
+  {
+    "id": "no-alcohol-smoking",
+    "title": "禁酒、禁烟、远离二手烟",
+    "category": "生活方式",
+    "priority": "high",
+    "summary": "孕期不要饮酒、吸烟，也尽量避开二手烟环境；这是优先级很高、今天就能执行的事项。",
+    "doctorConfirm": false,
+    "sources": ["cdc-alcohol-pregnancy"]
+  },
+  {
+    "id": "caffeine",
+    "title": "咖啡因：限制摄入",
+    "category": "饮食",
+    "priority": "medium",
+    "summary": "常见参考为每天不超过 200 mg 咖啡因；如果有特殊情况或医生有其他要求，以医生建议为准。",
+    "doctorConfirm": true,
+    "sources": ["acog-caffeine"]
+  },
+  {
+    "id": "food-safety",
+    "title": "食品安全：重点防生食和李斯特菌风险",
+    "category": "饮食",
+    "priority": "high",
+    "summary": "避免生/半生肉蛋海鲜、未消毒奶制品；熟食冷切肉、剩菜等注意充分加热，降低食源性风险。",
+    "doctorConfirm": false,
+    "sources": ["cdc-food-safety-pregnant", "acog-listeria"]
+  },
+  {
+    "id": "exercise",
+    "title": "运动：无禁忌时保持适度活动",
+    "category": "生活方式",
+    "priority": "medium",
+    "summary": "常见建议为每周 150 分钟中等强度运动；但当前早孕阶段是否适合、怎么做，第一次产检时问医生。",
+    "doctorConfirm": true,
+    "sources": ["acog-exercise"]
+  },
+  {
+    "id": "danger-signs",
+    "title": "早孕危险信号",
+    "category": "风险",
+    "priority": "high",
+    "summary": "腹痛、阴道出血、晕厥/明显头晕、肩痛、发热、严重呕吐等情况不要等，及时联系医生或急诊。",
+    "doctorConfirm": false,
+    "sources": ["source-acog-ectopic-pregnancy"]
+  },
+  {
+    "id": "xian-handbook",
+    "title": "建册/母子健康手册：西安本地待核实",
+    "category": "流程",
+    "priority": "high",
+    "summary": "全国性规范提示孕 13 周前完成首次孕产妇健康管理更稳妥；西安具体材料、社区和目标医院规则需要继续核实。",
+    "doctorConfirm": false,
+    "sources": ["source-national-basic-public-health"]
+  }
+]
