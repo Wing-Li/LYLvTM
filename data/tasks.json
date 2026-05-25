@@ -28,6 +28,67 @@
     ]
   },
   {
+    "id": "confirm-flexible-employment-maternity-benefits",
+    "title": "确认灵活就业职工医保的生育待遇口径",
+    "category": "政策",
+    "status": "未开始",
+    "urgency": "red",
+    "gestationalWindow": "怀孕确认后立即核实",
+    "idealStartDate": "2026-05-25",
+    "latestDate": "2026-05-31",
+    "remindFromDate": "2026-05-25",
+    "whyItMatters": "西安现行口径下，灵活就业人员可享生育医疗住院报销和门诊产前检查补贴，但不享受生育津贴；个人参保状态、缴费连续性和医院结算方式仍要核实。",
+    "missedWindowImpact": "可能到生产结算时才发现材料、参保状态或医院结算路径不清楚，影响报销和补贴申领。",
+    "prepItems": [
+      "查询女方西安市职工医保灵活就业参保状态和缴费是否正常",
+      "准备电子医保凭证或社保卡",
+      "记录计划产检/生产医院，向医院医保窗口确认是否支持实时结算",
+      "必要时拨打 12345 咨询西安市医保经办口径"
+    ],
+    "questionsToAsk": [
+      "灵活就业参保人员产前检查 2500 元补贴如何申领？",
+      "生产住院费用是出院直接结算还是需要后续报销？",
+      "如果更换医院或跨区就诊，结算方式有没有变化？",
+      "当前缴费状态是否满足待遇享受条件？"
+    ],
+    "localVerification": "西安已核实/个人参保状态待核实",
+    "sources": [
+      "source-shaanxi-maternity-faq-2023",
+      "source-xian-maternity-treatment-2023",
+      "source-xian-maternity-claim-2025"
+    ]
+  },
+  {
+    "id": "yanta-community-handbook-folic-acid",
+    "title": "确认雁塔区居住地社区并询问建册、叶酸和免费服务券",
+    "category": "建档",
+    "status": "需核实",
+    "urgency": "yellow",
+    "gestationalWindow": "孕早期，越早确认越好",
+    "idealStartDate": "2026-05-25",
+    "latestDate": "2026-06-15",
+    "remindFromDate": "2026-05-25",
+    "whyItMatters": "母子健康手册、社区孕产妇健康管理、免费叶酸和免费产前筛查服务券通常从社区或建册流程衔接，晚问容易影响后续 NT、筛查和建档节奏。",
+    "missedWindowImpact": "可能漏领免费服务券、跑错社区，或到孕周接近窗口时才补材料。",
+    "prepItems": [
+      "确认实际居住街道、小区对应的社区卫生服务中心",
+      "准备身份证、居住证明或户籍相关材料",
+      "带 2026-05-24 血检报告和后续早孕 B 超结果",
+      "询问是否可领取免费叶酸及免费“两筛”明白卡/服务券"
+    ],
+    "questionsToAsk": [
+      "我们这个小区归哪个社区卫生服务中心建册？",
+      "雁塔区办理母子健康手册需要哪些材料？",
+      "是否现在就能领叶酸？后续免费筛查券在哪里领？",
+      "社区建册和目标医院建档是否有先后要求？"
+    ],
+    "localVerification": "雁塔区/社区待核实",
+    "sources": [
+      "source-national-basic-public-health",
+      "source-shaanxi-two-screenings-2019"
+    ]
+  },
+  {
     "id": "early-ultrasound-confirm-location",
     "title": "预约早孕 B 超确认宫内孕",
     "category": "产检",
@@ -56,7 +117,7 @@
   },
   {
     "id": "xian-maternal-child-handbook",
-    "title": "核实西安建册/母子健康手册材料",
+    "title": "孕 13 周前完成母子健康手册/首次孕产妇健康管理",
     "category": "建档",
     "status": "需核实",
     "urgency": "green",
@@ -67,9 +128,9 @@
     "whyItMatters": "建册/母子健康手册和首次产检会影响后续规范产检、筛查预约和社区管理。",
     "missedWindowImpact": "可能需要补材料、跑社区或医院，影响后续产检衔接。",
     "prepItems": [
-      "核实所在区县和社区卫生服务中心",
+      "核实所在社区卫生服务中心",
       "核实目标医院是否要求先建册或预约建档",
-      "准备身份证、结婚证、居住/户籍相关材料等，具体以本地要求为准"
+      "准备身份证、居住证明、血检和早孕 B 超等材料，具体以社区要求为准"
     ],
     "questionsToAsk": [
       "我们所在社区在哪里办理母子健康手册？",
@@ -78,7 +139,8 @@
     ],
     "localVerification": "西安/社区待核实",
     "sources": [
-      "source-national-basic-public-health"
+      "source-national-basic-public-health",
+      "source-shaanxi-two-screenings-2019"
     ]
   },
   {
@@ -89,7 +151,7 @@
     "urgency": "yellow",
     "gestationalWindow": "通常为孕 11 周至 13 周 + 6 天",
     "idealStartDate": "2026-07-01",
-    "latestDate": "2026-07-29",
+    "latestDate": "2026-08-05",
     "remindFromDate": "2026-06-25",
     "whyItMatters": "NT 属于严格孕周窗口项目，预约晚了可能错过合适时间。",
     "missedWindowImpact": "错过后可能需要改走其他筛查/评估路径，具体听医生安排。",
@@ -106,6 +168,276 @@
     "localVerification": "医院待核实",
     "sources": [
       "source-pregnancy-care-guide-2018"
+    ]
+  },
+  {
+    "id": "aneuploidy-screening-choice",
+    "title": "和医生确认唐筛/无创 DNA/产前诊断路线",
+    "category": "筛查",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "NT 前后到孕中期筛查前",
+    "idealStartDate": "2026-07-16",
+    "latestDate": "2026-08-12",
+    "remindFromDate": "2026-07-01",
+    "whyItMatters": "不同筛查方式适用人群、时间窗、准确性和是否自费不同，需要医生结合年龄、病史和早孕检查结果决定。",
+    "missedWindowImpact": "可能错过部分筛查窗口，后续选择变少或需要改走诊断路径。",
+    "prepItems": [
+      "带母子健康手册和早孕 B 超结果",
+      "询问西安免费产前血清学筛查服务券能否使用",
+      "记录医生建议选择唐筛、无创 DNA 还是产前诊断"
+    ],
+    "questionsToAsk": [
+      "我们适合做唐筛、无创 DNA 还是直接做产前诊断？",
+      "免费服务券对应哪些项目，哪些需要自费？",
+      "如果筛查高风险，下一步去哪里复诊或诊断？"
+    ],
+    "localVerification": "医院待核实",
+    "sources": [
+      "source-shaanxi-two-screenings-2019",
+      "source-pregnancy-care-guide-2018"
+    ]
+  },
+  {
+    "id": "shaanxi-free-serum-screening",
+    "title": "使用陕西免费产前血清学筛查服务",
+    "category": "筛查",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "孕 15 周至 20 周 + 6 天",
+    "idealStartDate": "2026-08-13",
+    "latestDate": "2026-09-23",
+    "remindFromDate": "2026-07-30",
+    "whyItMatters": "陕西免费“两筛”政策包含每孕次一次唐氏综合征和开放性神经管缺陷血清学筛查。",
+    "missedWindowImpact": "错过孕周窗口后可能无法使用对应免费筛查服务，需咨询医生改走其他筛查或诊断方案。",
+    "prepItems": [
+      "带母子健康手册和免费筛查服务券",
+      "确认承担筛查任务的医疗保健机构",
+      "签署知情同意并确认是否有搭车收费项目"
+    ],
+    "questionsToAsk": [
+      "这次是否使用免费产前血清学筛查服务券？",
+      "报告多久出来，结果由谁随访？",
+      "高风险或临界风险下一步怎么处理？"
+    ],
+    "localVerification": "陕西已核实/机构待核实",
+    "sources": [
+      "source-shaanxi-two-screenings-2019"
+    ]
+  },
+  {
+    "id": "free-ultrasound-first-window",
+    "title": "关注第一次免费常规超声窗口",
+    "category": "筛查",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "孕 16 周至 24 周",
+    "idealStartDate": "2026-08-20",
+    "latestDate": "2026-10-15",
+    "remindFromDate": "2026-08-06",
+    "whyItMatters": "陕西免费“两筛”政策包含每孕次两次免费常规超声检查，第一次窗口在孕 16-24 周。",
+    "missedWindowImpact": "可能漏用免费超声服务，或和中孕期系统超声安排冲突。",
+    "prepItems": [
+      "带母子健康手册和服务券",
+      "确认本次超声是否与医院安排的大排畸/系统超声相同或不同",
+      "保存报告并更新页面提醒"
+    ],
+    "questionsToAsk": [
+      "这次免费常规超声和系统超声是否为同一项目？",
+      "如果不是，同期还需要预约哪些超声？"
+    ],
+    "localVerification": "陕西已核实/医院待核实",
+    "sources": [
+      "source-shaanxi-two-screenings-2019"
+    ]
+  },
+  {
+    "id": "anomaly-scan-window",
+    "title": "提前预约中孕期系统超声/大排畸",
+    "category": "产检",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "常见在孕 20 周至 24 周左右，按医院安排",
+    "idealStartDate": "2026-09-17",
+    "latestDate": "2026-10-15",
+    "remindFromDate": "2026-08-20",
+    "whyItMatters": "系统超声号源可能紧张，孕周窗口较明确，宜提前预约。",
+    "missedWindowImpact": "预约延后可能影响检查质量和后续评估节奏。",
+    "prepItems": [
+      "确认目标医院是否需要提前数周预约",
+      "确认是否需要带既往超声和筛查报告",
+      "把预约时间写进家庭日历"
+    ],
+    "questionsToAsk": [
+      "本院大排畸最佳预约孕周是哪几周？",
+      "是否需要先完成建档或指定医生开单？"
+    ],
+    "localVerification": "医院待核实",
+    "sources": [
+      "source-pregnancy-care-guide-2018"
+    ]
+  },
+  {
+    "id": "gdm-screening-window",
+    "title": "关注糖耐筛查窗口",
+    "category": "产检",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "常见在孕 24 周至 28 周",
+    "idealStartDate": "2026-10-15",
+    "latestDate": "2026-11-12",
+    "remindFromDate": "2026-10-01",
+    "whyItMatters": "妊娠期糖尿病筛查会影响后续饮食、运动和产检管理。",
+    "missedWindowImpact": "可能延后发现血糖问题，影响孕晚期管理。",
+    "prepItems": [
+      "按医院要求预约并确认是否需要空腹",
+      "记录近期饮食、体重和医生建议",
+      "检查前不要自行改变医生要求的饮食"
+    ],
+    "questionsToAsk": [
+      "糖耐检查前一天和当天有哪些注意事项？",
+      "如果结果异常，复诊和营养门诊如何安排？"
+    ],
+    "localVerification": "医院待核实",
+    "sources": [
+      "source-pregnancy-care-guide-2018"
+    ]
+  },
+  {
+    "id": "delivery-hospital-insurance-settlement-check",
+    "title": "孕晚期前确认生产医院医保结算和产检补贴申领",
+    "category": "政策",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "孕 28 周后到入院前",
+    "idealStartDate": "2026-11-12",
+    "latestDate": "2026-12-24",
+    "remindFromDate": "2026-10-29",
+    "whyItMatters": "灵活就业参保可以享受符合规定的生育医疗住院报销和门诊限额补贴，但不同医院的实时结算、材料和申领入口需要提前确认。",
+    "missedWindowImpact": "临近生产时再问容易漏材料、跑窗口或影响出院结算。",
+    "prepItems": [
+      "确认生产医院等级和是否为定点医疗机构",
+      "确认电子医保凭证、社保卡、身份证等入院结算材料",
+      "确认产前检查补贴是否随出院结算自动登记或需线上办理",
+      "确认异地、急产或转院情况下的报销材料"
+    ],
+    "questionsToAsk": [
+      "灵活就业职工医保生产住院费用如何结算？",
+      "2500 元产前检查补贴如何到个人？",
+      "二级及以下、三级医院结算规则有什么差别？"
+    ],
+    "localVerification": "医院待核实",
+    "sources": [
+      "source-xian-maternity-treatment-2023",
+      "source-xian-maternity-claim-2025"
+    ]
+  },
+  {
+    "id": "free-ultrasound-third-window",
+    "title": "关注第二次免费常规超声窗口",
+    "category": "筛查",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "孕 30 周至 34 周",
+    "idealStartDate": "2026-11-26",
+    "latestDate": "2026-12-24",
+    "remindFromDate": "2026-11-12",
+    "whyItMatters": "陕西免费“两筛”政策中的第二次免费常规超声在孕 30-34 周。",
+    "missedWindowImpact": "可能漏用免费超声服务，并影响孕晚期胎儿情况复核。",
+    "prepItems": [
+      "确认承担免费超声的机构",
+      "带母子健康手册和服务券",
+      "把报告结果更新进检查记录"
+    ],
+    "questionsToAsk": [
+      "这次免费超声主要看哪些内容？",
+      "是否还需要额外做胎儿生长评估或脐血流等项目？"
+    ],
+    "localVerification": "陕西已核实/医院待核实",
+    "sources": [
+      "source-shaanxi-two-screenings-2019"
+    ]
+  },
+  {
+    "id": "birth-one-thing-and-newborn-medical-insurance",
+    "title": "出生后办理出生一件事和新生儿医保",
+    "category": "证件",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "按预产期估算：出生后立即；新生儿医保出生 90 天内",
+    "idealStartDate": "2027-02-04",
+    "latestDate": "2027-05-05",
+    "remindFromDate": "2027-01-05",
+    "whyItMatters": "新生儿出生“一件事”可联办出生医学证明、户口、社保卡、居民医保登记等；新生儿医保 90 天内参保缴费通常可自出生日起享受待遇。",
+    "missedWindowImpact": "超过 90 天再办理新生儿医保，可能不能追溯出生日起的待遇，影响新生儿住院或检查费用保障。",
+    "prepItems": [
+      "生产前确认目标医院是否支持陕西新生儿出生“一件事”",
+      "准备父母身份证、户口簿、结婚证等材料，具体按医院和政务平台要求",
+      "出生后尽快确定宝宝姓名并办理出生医学证明",
+      "完成落户和居民医保登记后保存凭证"
+    ],
+    "questionsToAsk": [
+      "本院是否能办新生儿出生“一件事”？",
+      "户口、医保、社保卡是否能一次提交？",
+      "新生儿医保缴费年度如何选择？"
+    ],
+    "localVerification": "陕西已核实/医院和户籍地待核实",
+    "sources": [
+      "source-shaanxi-newborn-one-thing-2024",
+      "source-shaanxi-resident-medical-insurance-newborn-2025"
+    ]
+  },
+  {
+    "id": "childcare-subsidy-after-birth",
+    "title": "出生落户后申请育儿补贴",
+    "category": "政策",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "出生并落户后，按年度/季度申领和发放",
+    "idealStartDate": "2027-02-18",
+    "latestDate": "2027-12-31",
+    "remindFromDate": "2027-02-04",
+    "whyItMatters": "陕西省从 2025-01-01 起对具有本省户籍且符合法律法规规定生育或收养的 3 周岁以下婴幼儿发放育儿补贴，每孩每年 3600 元。",
+    "missedWindowImpact": "可能错过当年集中发放批次，需要等下一季度或补办。",
+    "prepItems": [
+      "完成宝宝落户",
+      "准备出生医学证明、户口簿、申领人银行卡或金融账户",
+      "通过育儿补贴信息管理系统线上申请，或到户籍地街道现场申请"
+    ],
+    "questionsToAsk": [
+      "宝宝户籍落在西安后，申领入口在哪里？",
+      "当年是否按季度集中发放？",
+      "如果账户信息错误，如何更正？"
+    ],
+    "localVerification": "陕西/西安已核实，户籍地待核实",
+    "sources": [
+      "source-shaanxi-childcare-subsidy-2025"
+    ]
+  },
+  {
+    "id": "tax-deduction-after-birth",
+    "title": "出生后填报 3 岁以下婴幼儿照护个税专项附加扣除",
+    "category": "政策",
+    "status": "未开始",
+    "urgency": "green",
+    "gestationalWindow": "出生后取得身份信息即可填报",
+    "idealStartDate": "2027-02-18",
+    "latestDate": "2027-03-31",
+    "remindFromDate": "2027-02-04",
+    "whyItMatters": "3 岁以下婴幼儿照护专项附加扣除标准为每个婴幼儿每月 2000 元，适合有应税收入的父母及时填报。",
+    "missedWindowImpact": "当月不填报通常仍可在年度汇算时补充，但会影响平时预扣预缴的节奏。",
+    "prepItems": [
+      "确认由父母一方 100% 扣除，或双方各按 50% 扣除",
+      "在个人所得税 APP 填报宝宝身份信息",
+      "保留出生医学证明等材料备查"
+    ],
+    "questionsToAsk": [
+      "家庭里谁有应税收入，怎么分配扣除更合适？",
+      "是否需要在单位预扣预缴阶段同步享受？"
+    ],
+    "localVerification": "全国通用",
+    "sources": [
+      "source-gov-tax-childcare-deduction-2023"
     ]
   }
 ]

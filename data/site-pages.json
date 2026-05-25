@@ -3,6 +3,6 @@
   { "label": "待办提醒", "path": "tasks.html", "description": "流程节点、材料、坑位" },
   { "label": "知识库", "path": "knowledge.html", "description": "孕早期必须先知道" },
   { "label": "检查记录", "path": "reports/2026-05-24-blood-test.html", "description": "血检报告详情和原图" },
-  { "label": "交流记录", "path": "conversations/2026-05-24-project-and-ui-design.html", "description": "重要对话摘要" },
+  { "label": "交流记录", "path": "conversations.html", "description": "重要对话摘要" },
   { "label": "来源", "path": "sources.html", "description": "权威来源和适用说明" }
 ]

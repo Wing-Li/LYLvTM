@@ -12,7 +12,7 @@
 - 待办提醒：`site/tasks.html`
 - 来源总表：`site/sources.html`
 - 血检详情：`site/reports/2026-05-24-blood-test.html`
-- 交流记录：`site/conversations/2026-05-24-project-and-ui-design.html`
+- 交流记录：`site/conversations.html`
 - 默认访问密码：`lyltm`
 
 ## 本地预览
@@ -50,12 +50,14 @@ site
 - `site/tasks.html`：完整待办和孕周窗口。
 - `site/sources.html`：来源总表和外部链接。
 - `site/reports/2026-05-24-blood-test.html`：血检详情和报告原图。
-- `site/conversations/2026-05-24-project-and-ui-design.html`：交流记录详情。
+- `site/conversations.html`：交流记录入口。
+- `site/conversations/2026-05-24-project-and-ui-design.html`：项目规划与视觉方向。
+- `site/conversations/2026-05-25-xian-yanta-pregnancy-benefits.html`：西安雁塔区孕期补贴和福利。
 
 ## 后续优先补充
 
-- 所在区县和社区卫生服务中心。
+- 雁塔区具体居住街道和对应社区卫生服务中心。
 - 目标产检/生产医院。
 - 医生是否建议复查 β-HCG / 孕酮。
 - 早孕 B 超建议时间。
-- 西安建册/母子健康手册办理材料和流程。
+- 雁塔区建册/母子健康手册办理材料和流程。

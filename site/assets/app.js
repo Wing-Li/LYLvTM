@@ -3,7 +3,7 @@ const SITE_CONFIG = {
   accessKey: "pregnancy_access_v1",
   lmp: "2026-04-30",
   dueDate: "2027-02-04",
-  buildDate: "2026-05-24"
+  buildDate: "2026-05-25"
 };
 
 function parseLocalDate(value) {
@@ -33,7 +33,7 @@ function updatePregnancyMeta() {
   const daysTo13w = Math.ceil((thirteenWeeks - today) / 86400000);
 
   document.querySelectorAll("[data-today-pill]").forEach((el) => {
-    el.textContent = `今天 · ${todayText} · 第一次确认`;
+    el.textContent = `今天 · ${todayText} · 孕早期记录`;
   });
   document.querySelectorAll("[data-week-title]").forEach((el) => {
     el.innerHTML = `孕 ${weeks} 周<br>+ ${days} 天`;

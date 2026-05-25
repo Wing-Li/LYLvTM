@@ -8,7 +8,7 @@ function siteHeader(active = "") {
     ["待办提醒", "tasks.html"],
     ["检查记录", "reports/2026-05-24-blood-test.html"],
     ["知识库", "knowledge.html"],
-    ["交流记录", "conversations/2026-05-24-project-and-ui-design.html"],
+    ["交流记录", "conversations.html"],
     ["来源", "sources.html"]
   ];
   const prefix = document.body.dataset.depth === "1" ? "../" : "";

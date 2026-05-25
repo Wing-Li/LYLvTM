@@ -94,5 +94,77 @@
     "url": "https://www.acog.org/womens-health/faqs/exercise-during-pregnancy",
     "accessedDate": "2026-05-24",
     "note": "用于孕期运动和每周 150 分钟中等强度运动参考。"
+  },
+  {
+    "id": "source-shaanxi-maternity-faq-2023",
+    "title": "生育保险政策热门问题答疑",
+    "organization": "陕西省医疗保障局",
+    "url": "https://ybj.shaanxi.gov.cn/sy/ybyw/sybdt/202308/t20230804_2356154.html",
+    "accessedDate": "2026-05-25",
+    "note": "用于西安市生育保险门诊补贴、住院待遇和灵活就业人员不享受生育津贴的口径。"
+  },
+  {
+    "id": "source-xian-maternity-treatment-2023",
+    "title": "西安市调整优化生育医疗保障待遇政策",
+    "organization": "西安市医疗保障局/陕西省医疗保障局",
+    "url": "https://ybj.shaanxi.gov.cn/sy/ybyw/sxybdt/202308/t20230803_2354300.html",
+    "accessedDate": "2026-05-25",
+    "note": "用于西安市参保女职工产前检查补贴 2500 元、住院分娩待遇和居民/职工生育医疗保障口径。"
+  },
+  {
+    "id": "source-xian-maternity-claim-2025",
+    "title": "西安市参保女职工生育津贴和产前检查费用补贴如何申领？",
+    "organization": "西安市医疗保障局",
+    "url": "https://ybj.xa.gov.cn/jlhd/hygq/sydy/1993242373399289858.html",
+    "accessedDate": "2026-05-25",
+    "note": "用于陕西医保 APP/小程序线上申领和 2025-10-01 后申领发放方式；灵活就业具体路径仍需个人参保状态核实。"
+  },
+  {
+    "id": "source-shaanxi-two-screenings-2019",
+    "title": "陕西省人民政府关于建立产前筛查和新生儿疾病筛查服务制度的实施意见",
+    "organization": "陕西省人民政府",
+    "url": "https://www.shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/gfxwj/202208/t20220805_2233323.html",
+    "accessedDate": "2026-05-25",
+    "note": "用于免费产前血清学筛查、两次免费常规超声和新生儿疾病筛查的对象、时间窗和流程。"
+  },
+  {
+    "id": "source-shaanxi-childcare-subsidy-2025",
+    "title": "陕西省育儿补贴制度实施方案",
+    "organization": "陕西省卫生健康委员会/陕西省财政厅",
+    "url": "https://sxwjw.shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/xzgfxwj/202512/t20251211_3595036.html",
+    "accessedDate": "2026-05-25",
+    "note": "用于陕西省 3 周岁以下婴幼儿每孩每年 3600 元育儿补贴、申领程序和发放周期。"
+  },
+  {
+    "id": "source-shaanxi-population-family-planning-regulation",
+    "title": "陕西省人口与计划生育条例",
+    "organization": "陕西省人民政府",
+    "url": "https://www.shaanxi.gov.cn/zfxxgk/zcwjk/dfxfg/202402/t20240226_2320584.html",
+    "accessedDate": "2026-05-25",
+    "note": "用于陕西产假、护理假、育儿假、孕前检查增加产假等权益口径。"
+  },
+  {
+    "id": "source-shaanxi-newborn-one-thing-2024",
+    "title": "陕西启动高效办成新生儿出生“一件事”试点工作",
+    "organization": "中国政府网/陕西省相关部门",
+    "url": "https://www.gov.cn/lianbo/difang/202411/content_6986343.htm",
+    "accessedDate": "2026-05-25",
+    "note": "用于出生医学证明、预防接种证、户口登记、社保卡、居民医保登记等新生儿出生一件事事项清单。"
+  },
+  {
+    "id": "source-shaanxi-resident-medical-insurance-newborn-2025",
+    "title": "陕西省城乡居民基本医疗保险参保缴费热点问答",
+    "organization": "陕西省医疗保障局",
+    "url": "https://ybj.shaanxi.gov.cn/sy/ybyw/sybdt/202410/t20241009_3447738.html",
+    "accessedDate": "2026-05-25",
+    "note": "用于新生儿出生 90 天内参加居民医保并自出生日起享受待遇的提醒。"
+  },
+  {
+    "id": "source-gov-tax-childcare-deduction-2023",
+    "title": "国务院关于提高个人所得税有关专项附加扣除标准的通知",
+    "organization": "国务院/中国政府网",
+    "url": "https://www.gov.cn/zhengce/content/202308/content_6901206.htm",
+    "accessedDate": "2026-05-25",
+    "note": "用于 3 岁以下婴幼儿照护专项附加扣除每个婴幼儿每月 2000 元的口径。"
   }
 ]
