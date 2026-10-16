@@ -1,0 +1,262 @@
+{
+  "updatedAt": "2026-10-16",
+  "source": "安琪儿医院小程序的费用列表、账单详情和支付明细",
+  "currency": "CNY",
+  "amountUnit": "分",
+  "coverage": {
+    "paidListComplete": true,
+    "pendingListComplete": true,
+    "currentVisibleListComplete": true,
+    "feeDateFilterAvailable": false,
+    "note": "2026-10-16已遍历小程序当前可见费用列表：8笔已支付、1笔待支付页账单。费用页未显示日期筛选，不能确认覆盖医院近一年全部账单或全部支出。"
+  },
+  "accountBalance": {
+    "label": "储值余额",
+    "amountFen": 2078828,
+    "observedOn": "2026-10-16",
+    "note": "账户时点余额，单独记录，不计入本期消费，也不推断充值金额、资金来源或套餐购买价格。"
+  },
+  "items": [
+    {
+      "id": "angel-expense-20261010-1148-paid-list08",
+      "visitTime": "2026-10-10 11:48",
+      "paymentTime": "2026-10-10 12:28",
+      "status": "已支付",
+      "invoiceDisplay": "null",
+      "billTotalFen": 100600,
+      "discountFen": null,
+      "packagePaymentFen": 100600,
+      "personalPaymentFen": 0,
+      "storedValuePaymentFen": null,
+      "displayedPaidFen": 0,
+      "remainingToPayFen": null,
+      "detailRead": true,
+      "facts": [
+        "账单总金额1006.00元，套餐支付-1006元，已支付0.00元，个人支付0.00元。",
+        "发票信息位置显示字面值null，未据此推断开票状态。"
+      ],
+      "reconciliation": {
+        "passed": true,
+        "unexplainedDifferenceFen": null,
+        "note": null
+      }
+    },
+    {
+      "id": "angel-expense-20261010-1148-paid-list07",
+      "visitTime": "2026-10-10 11:48",
+      "paymentTime": "2026-10-10 12:28",
+      "status": "已支付",
+      "invoiceDisplay": "null",
+      "billTotalFen": 1541,
+      "discountFen": null,
+      "packagePaymentFen": null,
+      "personalPaymentFen": 0,
+      "storedValuePaymentFen": 1541,
+      "displayedPaidFen": 1541,
+      "remainingToPayFen": null,
+      "detailRead": true,
+      "facts": [
+        "账单总金额15.41元，已支付15.41元。",
+        "展开支付明细显示院内储值金支付15.41元、个人支付0.00元。",
+        "发票信息位置显示字面值null，未据此推断开票状态。"
+      ],
+      "reconciliation": {
+        "passed": true,
+        "unexplainedDifferenceFen": null,
+        "note": null
+      }
+    },
+    {
+      "id": "angel-expense-20260914-1051-pending",
+      "visitTime": "2026-09-14 10:51",
+      "paymentTime": null,
+      "status": "待支付页显示",
+      "invoiceDisplay": null,
+      "billTotalFen": 86000,
+      "discountFen": null,
+      "packagePaymentFen": 86000,
+      "personalPaymentFen": null,
+      "storedValuePaymentFen": null,
+      "displayedPaidFen": null,
+      "remainingToPayFen": 0,
+      "detailRead": true,
+      "facts": [
+        "费用详情显示账单总金额860.00元、套餐支付-860元、个人待支付0.00元。",
+        "待支付列表显示总费用原860.00元（划线）、现0.00元，剩余待支付0.00元。"
+      ],
+      "reconciliation": {
+        "passed": true,
+        "unexplainedDifferenceFen": null,
+        "note": "套餐支付已覆盖该笔账单，页面处于待支付栏目但剩余待支付为0，不解释为仍欠860元。"
+      }
+    },
+    {
+      "id": "angel-expense-20260817-1132-paid-list06",
+      "visitTime": "2026-08-17 11:32",
+      "paymentTime": "2026-08-17 12:08",
+      "status": "已支付",
+      "invoiceDisplay": "null",
+      "billTotalFen": 56800,
+      "discountFen": 38000,
+      "packagePaymentFen": 18800,
+      "personalPaymentFen": 0,
+      "storedValuePaymentFen": null,
+      "displayedPaidFen": 0,
+      "remainingToPayFen": null,
+      "detailRead": true,
+      "facts": [
+        "账单总金额568.00元、折扣-380元、套餐支付-188元、已支付0.00元，个人支付0.00元。",
+        "发票信息位置显示字面值null，未据此推断开票状态。"
+      ],
+      "reconciliation": {
+        "passed": true,
+        "unexplainedDifferenceFen": null,
+        "note": null
+      }
+    },
+    {
+      "id": "angel-expense-20260817-1132-paid-list05",
+      "visitTime": "2026-08-17 11:32",
+      "paymentTime": "2026-08-17 12:06",
+      "status": "已支付",
+      "invoiceDisplay": "null",
+      "billTotalFen": 180000,
+      "discountFen": 30000,
+      "packagePaymentFen": null,
+      "personalPaymentFen": 0,
+      "storedValuePaymentFen": 150000,
+      "displayedPaidFen": 150000,
+      "remainingToPayFen": null,
+      "detailRead": true,
+      "facts": [
+        "账单总金额1800.00元，折扣-300元，已支付1500.00元。",
+        "展开支付明细显示院内储值金支付1500.00元，个人支付0.00元。",
+        "储值金支付是该笔账单的消费支付组成，不能当作此次新增充值，也不能与账户储值余额相加作为消费。",
+        "发票信息位置显示字面值null，未据此推断开票状态。"
+      ],
+      "reconciliation": {
+        "passed": true,
+        "unexplainedDifferenceFen": null,
+        "note": null
+      }
+    },
+    {
+      "id": "angel-expense-20260720-0914-paid-list04",
+      "visitTime": "2026-07-20 09:14",
+      "paymentTime": "2026-07-20 16:29",
+      "status": "已支付",
+      "invoiceDisplay": "null",
+      "billTotalFen": 65001,
+      "discountFen": 20001,
+      "packagePaymentFen": 45000,
+      "personalPaymentFen": 0,
+      "storedValuePaymentFen": null,
+      "displayedPaidFen": 0,
+      "remainingToPayFen": null,
+      "detailRead": true,
+      "facts": [
+        "账单总金额650.01元，折扣-200.01元，套餐支付-450元，已支付0.00元，个人支付0.00元。",
+        "发票信息位置显示字面值null，未据此推断开票状态。"
+      ],
+      "reconciliation": {
+        "passed": true,
+        "unexplainedDifferenceFen": null,
+        "note": null
+      }
+    },
+    {
+      "id": "angel-expense-20260720-0914-paid-list03",
+      "visitTime": "2026-07-20 09:14",
+      "paymentTime": "2026-07-20 09:40",
+      "status": "已支付",
+      "invoiceDisplay": "null",
+      "billTotalFen": 28500,
+      "discountFen": 1425,
+      "packagePaymentFen": null,
+      "personalPaymentFen": 21075,
+      "storedValuePaymentFen": null,
+      "displayedPaidFen": 21075,
+      "remainingToPayFen": null,
+      "detailRead": true,
+      "facts": [
+        "列表显示原285.00元（划线）、现270.75元，已支付210.75元。",
+        "费用详情显示账单总金额285.00元、折扣-14.25元、已支付210.75元，展开支付明细显示个人支付210.75元。",
+        "发票信息位置显示字面值null，未据此推断开票状态。"
+      ],
+      "reconciliation": {
+        "passed": false,
+        "unexplainedDifferenceFen": 6000,
+        "note": "折后金额270.75元与已支付210.75元相差60.00元，页面未显示差额构成，待核实。不能推断为欠款、退款或套餐抵扣。"
+      }
+    },
+    {
+      "id": "angel-expense-20260720-0914-paid-list02",
+      "visitTime": "2026-07-20 09:14",
+      "paymentTime": "2026-07-20 09:39",
+      "status": "已支付",
+      "invoiceDisplay": "null",
+      "billTotalFen": 279200,
+      "discountFen": null,
+      "packagePaymentFen": 279200,
+      "personalPaymentFen": 0,
+      "storedValuePaymentFen": null,
+      "displayedPaidFen": 0,
+      "remainingToPayFen": null,
+      "detailRead": true,
+      "facts": [
+        "已支付列表第二张卡片显示总费用原2792.00元（划线）、现0.00元，已支付0.00元。",
+        "费用详情显示账单总金额2792.00元、套餐支付-2792元、个人支付0.00元，支付时间2026-07-20 09:39。",
+        "发票信息位置显示字面值null，未据此推断开票状态。"
+      ],
+      "reconciliation": {
+        "passed": true,
+        "unexplainedDifferenceFen": null,
+        "note": null
+      }
+    },
+    {
+      "id": "angel-expense-20260627-1541-paid",
+      "visitTime": "2026-06-27 15:41",
+      "paymentTime": "2026-06-27 15:51",
+      "status": "已支付",
+      "invoiceDisplay": "null",
+      "billTotalFen": 44000,
+      "discountFen": 36000,
+      "packagePaymentFen": null,
+      "personalPaymentFen": 8000,
+      "storedValuePaymentFen": null,
+      "displayedPaidFen": 8000,
+      "remainingToPayFen": null,
+      "detailRead": true,
+      "facts": [
+        "费用详情显示账单总金额440.00元、折扣-360元、已支付80.00元。",
+        "展开支付明细显示个人支付80.00元。",
+        "已支付列表的发票信息位置显示字面值null，未据此推断开票状态。"
+      ],
+      "reconciliation": {
+        "passed": true,
+        "unexplainedDifferenceFen": null,
+        "note": null
+      }
+    }
+  ],
+  "paidSubtotal": {
+    "billTotalFen": 755642,
+    "discountFen": 125426,
+    "packagePaymentFen": 443600,
+    "personalPaymentFen": 29075,
+    "storedValuePaymentFen": 151541,
+    "displayedPaidFen": 180616,
+    "itemCount": 8,
+    "unexplainedDifferenceFen": 6000,
+    "scope": "当前已支付列表8笔的已显示金额合计，不代表近一年全部费用或全部自费支出。",
+    "note": "未显示的折扣/套餐/储值字段不推断为已核实零值；这里只汇总明确显示的组成。已支付合计等于个人支付加院内储值金支付；原账单减已显示折扣、套餐及已支付仍有60元待解释。"
+  },
+  "unconfirmed": [
+    "费用页没有显示日期筛选，当前可见9笔不能证明是近一年医院完整年度账单。",
+    "发票信息显示字面值null，开票状态及可下载发票待核实。",
+    "7月20日09:14就诊、09:40支付的285元账单：折后270.75元与个人已支付210.75元相差60元，构成待核实；不能推断为欠款、退款或套餐抵扣。",
+    "账单未显示收费项目细项，不能将某笔费用直接对应到某项检查。",
+    "套餐购买价格、储值充值记录和资金来源未显示，不能由套餐抵扣与当前余额推算。"
+  ]
+}

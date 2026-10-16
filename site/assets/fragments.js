@@ -6,7 +6,8 @@ function siteHeader(active = "") {
   const links = [
     ["首页", "index.html"],
     ["待办提醒", "tasks.html"],
-    ["检查记录", "reports/2026-05-24-blood-test.html"],
+    ["检查记录", "records.html"],
+    ["费用记录", "expenses.html"],
     ["知识库", "knowledge.html"],
     ["交流记录", "conversations.html"],
     ["来源", "sources.html"]

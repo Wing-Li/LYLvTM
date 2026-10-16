@@ -1,14 +1,224 @@
 [
   {
-    "id": "ask-doctor-hcg-progesterone-followup",
-    "title": "问医生是否需要复查 HCG / 孕酮",
+    "id": "confirm-current-dating",
+    "title": "补充医院预产期记录与下次产检安排",
     "category": "产检",
-    "status": "未开始",
+    "status": "需核实",
     "urgency": "yellow",
+    "priority": 1,
+    "gestationalWindow": "资料补充，无医学截止日",
+    "idealStartDate": "2026-10-16",
+    "latestDate": null,
+    "remindFromDate": "2026-10-16",
+    "whyItMatters": "孕周和提醒已按医院报告的末次月经2026-04-25计算；如医院另有明确校正的预产期记录，再据此更新。实际下次预约仍需登记。",
+    "missedWindowImpact": "资料不完整会影响提醒准确性，不能据此推断实际医疗情况。",
+    "prepItems": [
+      "2026-10-10超声报告",
+      "2026-08-25无创筛查报告及更早超声",
+      "医生记录的预产期和下次预约信息"
+    ],
+    "questionsToAsk": [
+      "医院是否另有明确校正的预产期记录？",
+      "下次产检日期和项目是什么？"
+    ],
+    "localVerification": "已按用户要求采用医院日期/实际预约待补充",
+    "sources": [],
+    "recordAsOf": "2026-10-16",
+    "dateBasis": "家庭资料整理",
+    "recordType": "AI整理",
+    "basisNote": "2026-10-16用户指定按医院口径计算，原家庭日期留在历史来源。"
+  },
+  {
+    "id": "angel-20260722-cervical-followup",
+    "title": "核对七月宫颈细胞学报告的后续随访",
+    "category": "产检",
+    "status": "需核实",
+    "urgency": "yellow",
+    "priority": 1,
+    "gestationalWindow": "核实既有报告的随访安排，由接诊医生评估",
+    "idealStartDate": "2026-10-16",
+    "latestDate": null,
+    "remindFromDate": "2026-10-16",
+    "whyItMatters": "7月21日正式报告提出阴道镜检查建议，小程序详情显示7月22日；本次资料中未确认后续就诊或随访安排。",
+    "doctorInstruction": "非典型鳞状细胞(ASCUS)，建议阴道镜检查。",
+    "referenceDateNote": "10月16日为本次资料核对日期，非医学截止日；是否已检查及孕期具体安排需向负责产检的医生核实。",
+    "missedWindowImpact": "不依据单份结果自行判断风险；先补充既往医生意见和随访记录。",
+    "prepItems": [
+      "7月21日宫颈细胞学正式报告（小程序详情7月22日）",
+      "如有HPV、阴道镜或后续门诊记录，一并带给医生",
+      "当前孕周和孕期就诊信息"
+    ],
+    "questionsToAsk": [
+      "这份结果是否已向产科医生反馈？",
+      "是否已完成阴道镜检查或已有随访安排？",
+      "结合妊娠情况，下一步应由哪个门诊及医生安排？"
+    ],
+    "localVerification": "个人报告建议已读取/后续诊疗安排待确认",
+    "sources": [
+      "asccp-pregnancy-cervical-screening",
+      "govuk-pregnancy-cervical-screening"
+    ],
+    "recordAsOf": "2026-10-16",
+    "recordType": "医生结论",
+    "dateBasis": "既有报告随访核对",
+    "recordSource": {
+      "title": "2026-07-21宫颈细胞学正式报告",
+      "href": "records.html#angel-report-20260722-tct"
+    },
+    "dateNote": "检查建议来自个人报告原文；公共来源仅作孕期随访背景，不替代个人临床评估，不设固定截止。"
+  },
+  {
+    "id": "angel-20261010-systemic-ultrasound-followup",
+    "title": "安排报告建议的28–30周系统超声复查",
+    "gestationalWindow": "医生报告建议28–30周",
+    "idealStartDate": "2026-11-07",
+    "remindFromDate": "2026-10-16",
+    "whyItMatters": "10月10日系统超声报告原文建议28–30周复查胎儿系统超声，同时提出复查肾盂及胆囊。",
+    "referenceDateNote": "按10月10日报告写孕24周推算：28周起11月7日，30周起11月21日。现在可核对预约；11月21日为记录核对节点，具体复查日期由医生确认。",
+    "doctorInstruction": "建议复查胎儿肾盂及胆囊；建议28周-30周复查胎儿系统超声检查",
+    "questionsToAsk": [
+      "28–30周复查是否已预约？",
+      "肾盂、胆囊复查是否并入该次检查，是否需要更早复查？"
+    ],
+    "sources": [
+      "nhs-pregnancy-ultrasound"
+    ],
+    "category": "产检",
+    "status": "需核实",
+    "urgency": "yellow",
+    "priority": 1,
+    "latestDate": null,
+    "missedWindowImpact": "尚未确认实际预约和完成情况，请与产检医生核对后记录。",
+    "prepItems": [
+      "2026-10-10系统超声报告",
+      "2026-08-25无创筛查报告",
+      "医生确认的孕周与预约记录"
+    ],
+    "localVerification": "医生报告建议已读取/实际安排待确认",
+    "recordAsOf": "2026-10-16",
+    "dateBasis": "医生报告孕周的AI日历换算",
+    "recordType": "医生结论",
+    "recordSource": {
+      "title": "2026-10-10胎儿系统性筛查报告",
+      "href": "records.html#angel-report-20261010-1145"
+    },
+    "dateNote": "24–26周或28–30周来自10月10日小程序报告正文；该报告PDF下载为错误响应，尚不能以原件复核。核对节点只是AI按报告孕周换算的提醒，不是检查的医学截止日；接近或超过节点仍需核对预约与后续记录。",
+    "reviewByDate": "2026-11-21",
+    "pregnancyOnly": true,
+    "reviewedDate": "2026-10-16",
+    "completionVerification": "尚无对应心动图或后续系统超声报告，也未登记预约；不等于实际没有完成。"
+  },
+  {
+    "id": "angel-20261010-fetal-echo",
+    "title": "核对并预约报告建议的胎儿超声心动图",
+    "gestationalWindow": "医生报告建议24–26周",
+    "idealStartDate": "2026-10-10",
+    "remindFromDate": "2026-10-10",
+    "whyItMatters": "10月10日系统超声报告原文建议24–26周胎儿超声心动图检查，完成及预约情况尚未确认。",
+    "referenceDateNote": "按10月10日报告写孕24周推算：24周起10月10日，26周起10月24日。10月24日设为预约／记录核对节点，不能当作医生指定截止日。",
+    "doctorInstruction": "建议24周-26周胎儿超声心动图检查",
+    "questionsToAsk": [
+      "胎儿超声心动图是否已预约或已完成？",
+      "报告还建议复查胎儿肾盂及胆囊，应安排在哪一次检查？",
+      "医生最终采用的预产期和孕周依据是什么？"
+    ],
+    "sources": [
+      "evelina-fetal-cardiology"
+    ],
+    "category": "产检",
+    "status": "需核实",
+    "urgency": "yellow",
+    "priority": 1,
+    "latestDate": null,
+    "missedWindowImpact": "尚未确认实际预约和完成情况，请与产检医生核对后记录。",
+    "prepItems": [
+      "2026-10-10系统超声报告",
+      "2026-08-25无创筛查报告",
+      "医生确认的孕周与预约记录"
+    ],
+    "localVerification": "医生报告建议已读取/实际安排待确认",
+    "recordAsOf": "2026-10-16",
+    "dateBasis": "医生报告孕周的AI日历换算",
+    "recordType": "医生结论",
+    "recordSource": {
+      "title": "2026-10-10胎儿系统性筛查报告",
+      "href": "records.html#angel-report-20261010-1145"
+    },
+    "dateNote": "24–26周或28–30周来自10月10日小程序报告正文；该报告PDF下载为错误响应，尚不能以原件复核。核对节点只是AI按报告孕周换算的提醒，不是检查的医学截止日；接近或超过节点仍需核对预约与后续记录。",
+    "reviewByDate": "2026-10-24",
+    "pregnancyOnly": true,
+    "reviewedDate": "2026-10-16",
+    "completionVerification": "尚无对应心动图或后续系统超声报告，也未登记预约；不等于实际没有完成。"
+  },
+  {
+    "id": "collect-angel-electronic-records",
+    "title": "补齐安琪儿 PDF 原件与随访记录",
+    "category": "记录",
+    "status": "准备中",
+    "urgency": "yellow",
+    "priority": 2,
+    "gestationalWindow": "资料补充，无医学截止日",
+    "idealStartDate": "2026-10-16",
+    "latestDate": null,
+    "remindFromDate": "2026-10-16",
+    "whyItMatters": "31条报告已整理，其中29条已有有效PDF原件并完成核对；10月10日两条超声已整理小程序内容，PDF原件仍待补充。接下来登记实际随访与预约。",
+    "missedWindowImpact": "资料不完整会影响提醒准确性，不能据此推断实际医疗情况。",
+    "prepItems": [
+      "向医院补充索取10月10日系统超声、三四维超声的可用原件",
+      "已下载的15份有效原件按日期及项目归档，页数和校验值已核对",
+      "原件留在本地私密目录，页面仅展示去身份信息的摘要"
+    ],
+    "questionsToAsk": [
+      "10月10日两份超声下载均显示医院文件缺失，医院能否提供可用的原始报告？",
+      "报告中的随访建议是否已预约或完成？"
+    ],
+    "localVerification": "用户信息已记录/具体安排待确认",
+    "sources": [],
+    "recordAsOf": "2026-10-16",
+    "dateBasis": "家庭资料整理",
+    "recordType": "AI整理",
+    "basisNote": "2026-10-16用户下载全部可见文件后本地核验：15份不同有效PDF关联29条报告，2条超声仍缺有效原件。"
+  },
+  {
+    "id": "confirm-care-locations",
+    "title": "补充产检院区、生产医院和社区信息",
+    "category": "流程",
+    "status": "需核实",
+    "urgency": "yellow",
+    "priority": 2,
+    "gestationalWindow": "资料补充，无医学截止日",
+    "idealStartDate": "2026-10-16",
+    "latestDate": null,
+    "remindFromDate": "2026-10-16",
+    "whyItMatters": "已确认主要在安琪儿产检，具体院区、生产医院和社区归属仍待补充。",
+    "missedWindowImpact": "资料不完整会影响提醒准确性，不能据此推断实际医疗情况。",
+    "prepItems": [
+      "安琪儿院区或报告抬头",
+      "雁塔区居住街道和对应社区",
+      "参保信息和医院医保窗口咨询结果"
+    ],
+    "questionsToAsk": [
+      "是否也在安琪儿生产？",
+      "建册已完成在哪里？",
+      "当前个人医保待遇与结算路径是否已确认？"
+    ],
+    "localVerification": "用户信息已记录/具体安排待确认",
+    "sources": [],
+    "recordAsOf": "2026-10-16",
+    "dateBasis": "家庭资料整理",
+    "recordType": "AI整理",
+    "basisNote": "来自 2026-10-16 用户补充及本次项目盘点。"
+  },
+  {
+    "id": "ask-doctor-hcg-progesterone-followup",
+    "title": "孕早期 HCG / 孕酮复查已有记录",
+    "category": "产检",
+    "status": "已完成",
+    "urgency": "gray",
     "gestationalWindow": "孕早期确认阶段",
-    "idealStartDate": "2026-05-24",
-    "latestDate": "2026-05-27",
-    "remindFromDate": "2026-05-24",
+    "idealStartDate": "2026-05-19",
+    "latestDate": "2026-05-22",
+    "remindFromDate": "2026-05-19",
     "whyItMatters": "单次血值只能作为当前事实，趋势和超声更能帮助医生判断下一步。",
     "missedWindowImpact": "可能延后确认复查或超声安排。",
     "prepItems": [
@@ -25,7 +235,17 @@
     "sources": [
       "source-acog-ectopic-pregnancy",
       "source-cleveland-hcg"
-    ]
+    ],
+    "recordAsOf": "2026-10-16",
+    "completionVerification": "已核对2026-06-27实际复查结果：hCG 76117.00 mIU/ml、孕酮20.80 ng/ml；不推断当时是否用药或医生的具体建议。",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 24,
+      "idealStartDate": 24,
+      "latestDate": 27
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "confirm-flexible-employment-maternity-benefits",
@@ -56,7 +276,11 @@
       "source-shaanxi-maternity-faq-2023",
       "source-xian-maternity-treatment-2023",
       "source-xian-maternity-claim-2025"
-    ]
+    ],
+    "recordAsOf": "2026-05-25",
+    "completionVerification": "完成情况待核实",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "历史家庭计划"
   },
   {
     "id": "yanta-community-handbook-folic-acid",
@@ -65,9 +289,9 @@
     "status": "需核实",
     "urgency": "yellow",
     "gestationalWindow": "孕早期，越早确认越好",
-    "idealStartDate": "2026-05-25",
-    "latestDate": "2026-06-15",
-    "remindFromDate": "2026-05-25",
+    "idealStartDate": "2026-05-20",
+    "latestDate": "2026-06-10",
+    "remindFromDate": "2026-05-20",
     "whyItMatters": "母子健康手册、社区孕产妇健康管理、免费叶酸和免费产前筛查服务券通常从社区或建册流程衔接，晚问容易影响后续 NT、筛查和建档节奏。",
     "missedWindowImpact": "可能漏领免费服务券、跑错社区，或到孕周接近窗口时才补材料。",
     "prepItems": [
@@ -86,18 +310,28 @@
     "sources": [
       "source-national-basic-public-health",
       "source-shaanxi-two-screenings-2019"
-    ]
+    ],
+    "recordAsOf": "2026-05-25",
+    "completionVerification": "完成情况待核实",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 25,
+      "idealStartDate": 25,
+      "latestDate": 46
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "early-ultrasound-confirm-location",
     "title": "预约早孕 B 超确认宫内孕",
     "category": "产检",
-    "status": "需核实",
-    "urgency": "blue",
+    "status": "已完成",
+    "urgency": "gray",
     "gestationalWindow": "孕早期，具体时间听医生安排",
-    "idealStartDate": "2026-06-11",
-    "latestDate": "2026-06-30",
-    "remindFromDate": "2026-06-04",
+    "idealStartDate": "2026-06-06",
+    "latestDate": "2026-06-25",
+    "remindFromDate": "2026-05-30",
     "whyItMatters": "早孕超声可帮助确认妊娠位置、孕周和后续预产期校正。",
     "missedWindowImpact": "可能延后确认宫内孕和孕周，影响后续提醒准确性。",
     "prepItems": [
@@ -113,7 +347,17 @@
     "localVerification": "医院待核实",
     "sources": [
       "source-acog-ectopic-pregnancy"
-    ]
+    ],
+    "recordAsOf": "2026-10-16",
+    "completionVerification": "已核对2026-06-27超声报告，报告原文记录宫内孕、胎儿存活（孕约9周1天）。",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 35,
+      "idealStartDate": 42,
+      "latestDate": 61
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "xian-maternal-child-handbook",
@@ -122,9 +366,9 @@
     "status": "需核实",
     "urgency": "green",
     "gestationalWindow": "孕 13 周前完成首次孕产妇健康管理更稳妥",
-    "idealStartDate": "2026-06-15",
-    "latestDate": "2026-07-29",
-    "remindFromDate": "2026-06-10",
+    "idealStartDate": "2026-06-10",
+    "latestDate": "2026-07-24",
+    "remindFromDate": "2026-06-05",
     "whyItMatters": "建册/母子健康手册和首次产检会影响后续规范产检、筛查预约和社区管理。",
     "missedWindowImpact": "可能需要补材料、跑社区或医院，影响后续产检衔接。",
     "prepItems": [
@@ -141,18 +385,28 @@
     "sources": [
       "source-national-basic-public-health",
       "source-shaanxi-two-screenings-2019"
-    ]
+    ],
+    "recordAsOf": "2026-05-25",
+    "completionVerification": "完成情况待核实",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 41,
+      "idealStartDate": 46,
+      "latestDate": 90
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "nt-appointment-window",
     "title": "提前准备 NT 筛查预约",
     "category": "筛查",
-    "status": "未开始",
-    "urgency": "yellow",
+    "status": "已完成",
+    "urgency": "gray",
     "gestationalWindow": "通常为孕 11 周至 13 周 + 6 天",
-    "idealStartDate": "2026-07-01",
-    "latestDate": "2026-08-05",
-    "remindFromDate": "2026-06-25",
+    "idealStartDate": "2026-06-26",
+    "latestDate": "2026-07-31",
+    "remindFromDate": "2026-06-20",
     "whyItMatters": "NT 属于严格孕周窗口项目，预约晚了可能错过合适时间。",
     "missedWindowImpact": "错过后可能需要改走其他筛查/评估路径，具体听医生安排。",
     "prepItems": [
@@ -168,18 +422,28 @@
     "localVerification": "医院待核实",
     "sources": [
       "source-pregnancy-care-guide-2018"
-    ]
+    ],
+    "recordAsOf": "2026-10-16",
+    "completionVerification": "已核对2026-07-20早孕筛查超声报告，记录NT 1.2 mm、头臀长58 mm；这里只确认检查已有记录。",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 56,
+      "idealStartDate": 62,
+      "latestDate": 97
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "aneuploidy-screening-choice",
     "title": "和医生确认唐筛/无创 DNA/产前诊断路线",
     "category": "筛查",
-    "status": "未开始",
+    "status": "已完成",
     "urgency": "green",
     "gestationalWindow": "NT 前后到孕中期筛查前",
-    "idealStartDate": "2026-07-16",
-    "latestDate": "2026-08-12",
-    "remindFromDate": "2026-07-01",
+    "idealStartDate": "2026-07-11",
+    "latestDate": "2026-08-07",
+    "remindFromDate": "2026-06-26",
     "whyItMatters": "不同筛查方式适用人群、时间窗、准确性和是否自费不同，需要医生结合年龄、病史和早孕检查结果决定。",
     "missedWindowImpact": "可能错过部分筛查窗口，后续选择变少或需要改走诊断路径。",
     "prepItems": [
@@ -196,18 +460,28 @@
     "sources": [
       "source-shaanxi-two-screenings-2019",
       "source-pregnancy-care-guide-2018"
-    ]
+    ],
+    "recordAsOf": "2026-10-16",
+    "completionVerification": "已读取无创筛查报告，采样2026-08-17，报告2026-08-25；仅确认已完成这一筛查，不能替代其他诊断。",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 62,
+      "idealStartDate": 77,
+      "latestDate": 104
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "shaanxi-free-serum-screening",
-    "title": "使用陕西免费产前血清学筛查服务",
+    "title": "核对血清学筛查旧计划与已完成无创路线",
     "category": "筛查",
-    "status": "未开始",
+    "status": "需核实",
     "urgency": "green",
     "gestationalWindow": "孕 15 周至 20 周 + 6 天",
-    "idealStartDate": "2026-08-13",
-    "latestDate": "2026-09-23",
-    "remindFromDate": "2026-07-30",
+    "idealStartDate": "2026-08-08",
+    "latestDate": "2026-09-18",
+    "remindFromDate": "2026-07-25",
     "whyItMatters": "陕西免费“两筛”政策包含每孕次一次唐氏综合征和开放性神经管缺陷血清学筛查。",
     "missedWindowImpact": "错过孕周窗口后可能无法使用对应免费筛查服务，需咨询医生改走其他筛查或诊断方案。",
     "prepItems": [
@@ -216,25 +490,34 @@
       "签署知情同意并确认是否有搭车收费项目"
     ],
     "questionsToAsk": [
-      "这次是否使用免费产前血清学筛查服务券？",
-      "报告多久出来，结果由谁随访？",
-      "高风险或临界风险下一步怎么处理？"
+      "本次妊娠实际采用的筛查路线是什么？是否还存在需要补充的既往记录？",
+      "免费服务凭证是否已使用，是否与8月17日超声属于同一服务记录？"
     ],
     "localVerification": "陕西已核实/机构待核实",
     "sources": [
       "source-shaanxi-two-screenings-2019"
-    ]
+    ],
+    "recordAsOf": "2026-10-16",
+    "completionVerification": "8月25日无创筛查已有原件；本次未见血清学唐筛报告。该旧计划不自动标成漏检，也不自动认定两者等价，需医生确认实际筛查路线。",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 91,
+      "idealStartDate": 105,
+      "latestDate": 146
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "free-ultrasound-first-window",
-    "title": "关注第一次免费常规超声窗口",
+    "title": "第一次免费产前超声已有原件",
     "category": "筛查",
-    "status": "未开始",
-    "urgency": "green",
+    "status": "已完成",
+    "urgency": "gray",
     "gestationalWindow": "孕 16 周至 24 周",
-    "idealStartDate": "2026-08-20",
-    "latestDate": "2026-10-15",
-    "remindFromDate": "2026-08-06",
+    "idealStartDate": "2026-08-15",
+    "latestDate": "2026-10-10",
+    "remindFromDate": "2026-08-01",
     "whyItMatters": "陕西免费“两筛”政策包含每孕次两次免费常规超声检查，第一次窗口在孕 16-24 周。",
     "missedWindowImpact": "可能漏用免费超声服务，或和中孕期系统超声安排冲突。",
     "prepItems": [
@@ -249,18 +532,32 @@
     "localVerification": "陕西已核实/医院待核实",
     "sources": [
       "source-shaanxi-two-screenings-2019"
-    ]
+    ],
+    "recordAsOf": "2026-10-16",
+    "completionVerification": "2026-08-17原件标题与检查部位明确写“免费产前超声”，已按报告证据确认这次检查完成；免费资格、服务券和费用归属仍未据此推断。",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 98,
+      "idealStartDate": 112,
+      "latestDate": 168
+    },
+    "recordSource": {
+      "title": "2026-08-17免费产前超声原件",
+      "href": "records.html#angel-report-20260817-1224"
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "anomaly-scan-window",
     "title": "提前预约中孕期系统超声/大排畸",
     "category": "产检",
-    "status": "未开始",
+    "status": "已完成",
     "urgency": "green",
     "gestationalWindow": "常见在孕 20 周至 24 周左右，按医院安排",
-    "idealStartDate": "2026-09-17",
-    "latestDate": "2026-10-15",
-    "remindFromDate": "2026-08-20",
+    "idealStartDate": "2026-09-12",
+    "latestDate": "2026-10-10",
+    "remindFromDate": "2026-08-15",
     "whyItMatters": "系统超声号源可能紧张，孕周窗口较明确，宜提前预约。",
     "missedWindowImpact": "预约延后可能影响检查质量和后续评估节奏。",
     "prepItems": [
@@ -275,33 +572,57 @@
     "localVerification": "医院待核实",
     "sources": [
       "source-pregnancy-care-guide-2018"
-    ]
+    ],
+    "recordAsOf": "2026-10-16",
+    "completionVerification": "已核对2026-10-10胎儿系统性筛查报告；报告另有后续复查建议。",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 112,
+      "idealStartDate": 140,
+      "latestDate": 168
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "gdm-screening-window",
-    "title": "关注糖耐筛查窗口",
+    "title": "确认24–28周糖耐及同期常规产检",
     "category": "产检",
-    "status": "未开始",
+    "status": "需核实",
     "urgency": "green",
     "gestationalWindow": "常见在孕 24 周至 28 周",
-    "idealStartDate": "2026-10-15",
-    "latestDate": "2026-11-12",
-    "remindFromDate": "2026-10-01",
-    "whyItMatters": "妊娠期糖尿病筛查会影响后续饮食、运动和产检管理。",
+    "idealStartDate": "2026-10-10",
+    "latestDate": "2026-11-07",
+    "remindFromDate": "2026-09-26",
+    "whyItMatters": "本次PDF仅有7月单次葡萄糖4.37 mmol/L，未见OGTT结果。糖耐和同期常规产检需核对实际预约，不能用这次历史血糖代替糖耐。",
     "missedWindowImpact": "可能延后发现血糖问题，影响孕晚期管理。",
     "prepItems": [
-      "按医院要求预约并确认是否需要空腹",
-      "记录近期饮食、体重和医生建议",
-      "检查前不要自行改变医生要求的饮食"
+      "向安琪儿确认糖耐是否已做、具体日期和检查准备，未提供医院确认的禁食时长时不自行照搬其他医院安排",
+      "带既往检查，核对本阶段血压、体重、血常规及尿检记录；血常规和门诊血压不在本次PDF中",
+      "保存空腹及服糖后各时间点的结果、医生解释和下次预约"
     ],
     "questionsToAsk": [
-      "糖耐检查前一天和当天有哪些注意事项？",
-      "如果结果异常，复诊和营养门诊如何安排？"
+      "糖耐是否已完成或预约？检查前饮食、空腹和用药要求是什么？",
+      "这次是否需要同步血常规、尿检等常规项目，既往尿检和血脂/甲功结果是否需要复核？",
+      "医生采用的孕周和预产期是什么？请将下一次产检日期和项目写清楚。"
     ],
     "localVerification": "医院待核实",
     "sources": [
-      "source-pregnancy-care-guide-2018"
-    ]
+      "beijing-obstetrics-prenatal-2024",
+      "nhs-gestational-diabetes",
+      "nhs-antenatal-appointments"
+    ],
+    "recordAsOf": "2026-10-16",
+    "completionVerification": "15份有效PDF未见OGTT及血常规报告；已有尿检不能代替当前门诊记录，也不能据资料缺失断言未检查。",
+    "dateNote": "参考区间按医院报告的末次月经2026-04-25及推算预产期自动计算；检查准备和实际预约以医院为准。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 154,
+      "idealStartDate": 168,
+      "latestDate": 196
+    },
+    "reviewedDate": "2026-10-16",
+    "priority": 1
   },
   {
     "id": "delivery-hospital-insurance-settlement-check",
@@ -310,9 +631,9 @@
     "status": "未开始",
     "urgency": "green",
     "gestationalWindow": "孕 28 周后到入院前",
-    "idealStartDate": "2026-11-12",
-    "latestDate": "2026-12-24",
-    "remindFromDate": "2026-10-29",
+    "idealStartDate": "2026-11-07",
+    "latestDate": "2026-12-19",
+    "remindFromDate": "2026-10-24",
     "whyItMatters": "灵活就业参保可以享受符合规定的生育医疗住院报销和门诊限额补贴，但不同医院的实时结算、材料和申领入口需要提前确认。",
     "missedWindowImpact": "临近生产时再问容易漏材料、跑窗口或影响出院结算。",
     "prepItems": [
@@ -324,25 +645,38 @@
     "questionsToAsk": [
       "灵活就业职工医保生产住院费用如何结算？",
       "2500 元产前检查补贴如何到个人？",
-      "二级及以下、三级医院结算规则有什么差别？"
+      "二级及以下、三级医院结算规则有什么差别？",
+      "主要在安琪儿产检，是否也计划在该院生产？灵活就业身份的具体申领流程是什么？"
     ],
     "localVerification": "医院待核实",
     "sources": [
       "source-xian-maternity-treatment-2023",
-      "source-xian-maternity-claim-2025"
-    ]
+      "source-xian-maternity-claim-2025",
+      "xian-maternity-support-2025",
+      "xian-maternity-faq-official"
+    ],
+    "recordAsOf": "2026-05-25",
+    "completionVerification": "完成情况待核实",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 182,
+      "idealStartDate": 196,
+      "latestDate": 238
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "free-ultrasound-third-window",
     "title": "关注第二次免费常规超声窗口",
     "category": "筛查",
-    "status": "未开始",
+    "status": "需核实",
     "urgency": "green",
     "gestationalWindow": "孕 30 周至 34 周",
-    "idealStartDate": "2026-11-26",
-    "latestDate": "2026-12-24",
-    "remindFromDate": "2026-11-12",
-    "whyItMatters": "陕西免费“两筛”政策中的第二次免费常规超声在孕 30-34 周。",
+    "idealStartDate": "2026-11-21",
+    "latestDate": "2026-12-19",
+    "remindFromDate": "2026-11-07",
+    "whyItMatters": "西安历史公示的第二次免费常规超声窗口为30–34周；已取得8月首次免费产前超声原件。应向安琪儿确认后一次服务及与28–30周系统超声复查的关系，避免把两种项目自行合并或重复预约。",
     "missedWindowImpact": "可能漏用免费超声服务，并影响孕晚期胎儿情况复核。",
     "prepItems": [
       "确认承担免费超声的机构",
@@ -350,13 +684,24 @@
       "把报告结果更新进检查记录"
     ],
     "questionsToAsk": [
-      "这次免费超声主要看哪些内容？",
-      "是否还需要额外做胎儿生长评估或脐血流等项目？"
+      "第二次免费常规超声的资格、凭证和当前预约窗口是什么？",
+      "报告建议的28–30周系统超声复查，能否与这项服务协调，检查内容和费用分别怎样记录？"
     ],
-    "localVerification": "陕西已核实/医院待核实",
+    "localVerification": "西安历史公示可查/2026年安琪儿安排待核实",
     "sources": [
-      "source-shaanxi-two-screenings-2019"
-    ]
+      "shaanxi-screening-policy-pdf",
+      "xian-fifth-hospital-screening"
+    ],
+    "recordAsOf": "2026-10-16",
+    "completionVerification": "完成情况待核实",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "孕周参考",
+    "pregnancyDays": {
+      "remindFromDate": 196,
+      "idealStartDate": 210,
+      "latestDate": 238
+    },
+    "reviewedDate": "2026-10-16"
   },
   {
     "id": "birth-one-thing-and-newborn-medical-insurance",
@@ -385,7 +730,11 @@
     "sources": [
       "source-shaanxi-newborn-one-thing-2024",
       "source-shaanxi-resident-medical-insurance-newborn-2025"
-    ]
+    ],
+    "recordAsOf": "2026-05-25",
+    "completionVerification": "完成情况待核实",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "出生后待重算"
   },
   {
     "id": "childcare-subsidy-after-birth",
@@ -412,7 +761,11 @@
     "localVerification": "陕西/西安已核实，户籍地待核实",
     "sources": [
       "source-shaanxi-childcare-subsidy-2025"
-    ]
+    ],
+    "recordAsOf": "2026-05-25",
+    "completionVerification": "完成情况待核实",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "出生后待重算"
   },
   {
     "id": "tax-deduction-after-birth",
@@ -438,6 +791,87 @@
     "localVerification": "全国通用",
     "sources": [
       "source-gov-tax-childcare-deduction-2023"
-    ]
+    ],
+    "recordAsOf": "2026-05-25",
+    "completionVerification": "完成情况待核实",
+    "dateNote": "原计划参考日期，不代表医生指定期限；需结合校正孕周和实际完成情况核实。",
+    "dateBasis": "出生后待重算"
+  },
+  {
+    "id": "routine-prenatal-28-32",
+    "title": "确认28–32周复诊与常规检查计划",
+    "category": "产检",
+    "status": "需核实",
+    "urgency": "green",
+    "priority": 2,
+    "gestationalWindow": "孕28–32周按医生安排复诊",
+    "idealStartDate": "2026-11-07",
+    "latestDate": "2026-12-05",
+    "remindFromDate": "2026-10-24",
+    "pregnancyDays": {
+      "remindFromDate": 182,
+      "idealStartDate": 196,
+      "latestDate": 224
+    },
+    "whyItMatters": "本阶段仍需常规产检及既往结果复核，超声复查不能替代血压、体重及医生安排的血尿检查。",
+    "missedWindowImpact": "没有实际预约和门诊记录时，页面无法确认检查已完成。",
+    "prepItems": [
+      "带糖耐、TCT及超声报告和随访记录",
+      "核对血压、体重、血常规、尿检与医生指定的其他复查",
+      "登记下次预约；是否复查铁蛋白、肝肾功能或感染筛查由医生根据情况决定"
+    ],
+    "questionsToAsk": [
+      "28周后复诊间隔及每次项目怎样安排？",
+      "糖耐、贫血筛查和既往报告有没有需要跟进的结果？",
+      "系统超声复查、常规超声和门诊能否协调到合适日期？"
+    ],
+    "localVerification": "通用医学信息已核对/安琪儿具体安排待确认",
+    "sources": [
+      "beijing-obstetrics-prenatal-2024",
+      "nhs-antenatal-appointments"
+    ],
+    "recordAsOf": "2026-10-16",
+    "reviewedDate": "2026-10-16",
+    "recordType": "AI整理",
+    "dateBasis": "孕周参考",
+    "dateNote": "参考区间随登记预产期更新，不是统一的医学截止或强制检查单；检查项目和频率以接诊医生为准。"
+  },
+  {
+    "id": "fetal-movement-contact-plan",
+    "title": "了解胎动变化及异常时的联系办法",
+    "category": "产检",
+    "status": "需核实",
+    "urgency": "yellow",
+    "priority": 2,
+    "gestationalWindow": "从当前阶段持续关注，具体记录方法向医生确认",
+    "idealStartDate": "2026-10-10",
+    "latestDate": null,
+    "remindFromDate": "2026-10-10",
+    "pregnancyDays": {
+      "remindFromDate": 168,
+      "idealStartDate": 168
+    },
+    "whyItMatters": "关注宝宝平时的胎动规律；若孕24周仍未感到胎动，或出现比平时减少、消失或规律改变，应及时联系产科，不等到下次产检。",
+    "referenceDateNote": "当前即可向安琪儿确认胎动观察方法和异常时的联系入口；这不是定期检查的截止日。",
+    "missedWindowImpact": "不能用家用胎心仪或等待次日来替代异常胎动的及时评估。",
+    "prepItems": [
+      "向接诊医生了解适合自己的胎动观察与记录方法",
+      "保存安琪儿产科及急诊的实际联系电话和夜间就诊入口"
+    ],
+    "questionsToAsk": [
+      "目前胎动感受是否符合当前孕周，需要怎样观察和记录？",
+      "若夜间出现胎动减少或其他异常，应联系哪个科室、从哪里就诊？"
+    ],
+    "localVerification": "通用医学信息已核对/医院联系方式待确认",
+    "sources": [
+      "nhs-fetal-movements",
+      "rcog-fetal-movements",
+      "beijing-obstetrics-prenatal-2024"
+    ],
+    "recordAsOf": "2026-10-16",
+    "reviewedDate": "2026-10-16",
+    "recordType": "AI整理",
+    "dateBasis": "孕周参考",
+    "dateNote": "国内科普常提示28周后自数胎动；NHS强调个体规律、无统一次数要求。此处不设置通用次数阈值，具体方法遵循接诊医生，异常变化及时就医。"
   }
 ]

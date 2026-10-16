@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>费用记录 - 宝宝成长档案</title>
+  <link rel="stylesheet" href="assets/app.css">
+  <link rel="stylesheet" href="assets/records.css">
+  <link rel="stylesheet" href="assets/expenses.css">
+  <script src="assets/fragments.js"></script>
+</head>
+<body>
+  <script>accessGate();</script>
+  <main class="app">
+    <script>siteHeader("费用记录");</script>
+    <section class="card section-card records-intro">
+      <span class="pill">逐笔记录 · 分清支付方式</span>
+      <h1 class="section-title">费用记录</h1>
+      <p class="section-subtitle">个人支付、储值消费、套餐抵扣和折扣分别记，保留账单中的差异。</p>
+      <div id="expenseCoverage" aria-live="polite"><p>正在载入费用摘要。</p></div>
+      <p class="record-note">这里只保留匿名金额和日期，不展示身份信息、账单编号或原始截图。</p>
+    </section>
+
+    <section class="wide-section" aria-labelledby="expenseSummaryTitle">
+      <div class="section-head"><div><h2 class="section-title" id="expenseSummaryTitle">已支付清单 · 已显示金额</h2><p class="section-subtitle" id="expenseSummaryScope"></p></div></div>
+      <div id="expenseSummary" class="expense-summary"></div>
+      <div id="expenseReconciliation" class="expense-reconciliation"></div>
+    </section>
+
+    <section class="wide-section expense-separate" aria-label="独立记录的余额及待支付栏目">
+      <article class="card section-card" id="expenseBalance"></article>
+      <article class="card section-card" id="expensePendingSummary"></article>
+    </section>
+
+    <section class="wide-section" aria-labelledby="paidExpensesTitle">
+      <div class="section-head"><div><h2 class="section-title" id="paidExpensesTitle">已支付账单</h2><p class="section-subtitle">按就诊时间倒序排列；同一次就诊可能有多笔账单。</p></div></div>
+      <div id="paidExpenseList" class="record-list"></div>
+    </section>
+
+    <section class="wide-section" aria-labelledby="pendingExpensesTitle">
+      <div class="section-head"><div><h2 class="section-title" id="pendingExpensesTitle">待支付栏目中的账单</h2><p class="section-subtitle">栏目名称与实际剩余待支付金额分别保留。</p></div></div>
+      <div id="pendingExpenseList" class="record-list"></div>
+    </section>
+
+    <section class="card section-card wide-section">
+      <h2 class="section-title">待确认问题</h2>
+      <ul id="expenseQuestions" class="list"></ul>
+    </section>
+    <noscript><p class="record-notice">请启用 JavaScript 查看已核对的费用摘要。</p></noscript>
+    <p class="footer">费用页用于家庭归档；未显示的金额不等于已确认零值。账单与具体检查项目的对应关系尚待核实。</p>
+  </main>
+  <script src="assets/site-data.js?v=20261016-hospital-dating"></script>
+  <script src="assets/timeline.js"></script>
+  <script src="assets/app.js?v=20261016-hospital-dating"></script>
+  <script src="assets/expenses.js"></script>
+</body>
+</html>

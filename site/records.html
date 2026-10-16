@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>检查记录 - 宝宝成长档案</title>
+  <link rel="stylesheet" href="assets/app.css">
+  <link rel="stylesheet" href="assets/records.css">
+  <script src="assets/fragments.js"></script>
+</head>
+<body>
+  <script>accessGate();</script>
+  <main class="app">
+    <script>siteHeader("检查记录");</script>
+    <section class="card section-card records-intro">
+      <div class="section-head"><div>
+        <span class="pill">按日期留存 · 逐份核对</span>
+        <h1 class="section-title">检查记录</h1>
+        <p class="section-subtitle">把检查结果和医生原话放在一起，保留来源与待确认之处。</p>
+      </div></div>
+      <div id="recordCoverage" aria-live="polite"><p>正在载入报告摘要。</p></div>
+      <p class="record-note">这里只展示匿名摘要，原件及读取过程保留在本地。报告中的孕周属于当时记录；不同日期依据有差异时，保留原文并等待医生核对。</p>
+      <a class="button-link secondary" href="conversations/2026-10-16-pdf-content-review.html">查看本次复核结果与后续重点</a>
+    </section>
+
+    <section class="wide-section" aria-labelledby="angelRecordsTitle">
+      <div class="section-head records-toolbar">
+        <div><h2 class="section-title" id="angelRecordsTitle">安琪儿电子报告</h2><p class="section-subtitle" id="recordCount" aria-live="polite"></p></div>
+        <label class="record-filter">报告日期<select id="recordDateFilter"><option value="">全部日期</option></select></label>
+      </div>
+      <div id="recordList" class="record-list"></div>
+      <noscript><p class="record-notice">请启用 JavaScript 查看已核对的电子报告摘要。</p></noscript>
+    </section>
+
+    <section class="card section-card wide-section">
+      <div class="section-head"><div><h2 class="section-title">已有历史资料</h2><p class="section-subtitle">与本次安琪儿报告分开保留。</p></div></div>
+      <a class="button-link secondary" href="reports/2026-05-24-blood-test.html">2026-05-24 · 早孕血检摘要</a>
+    </section>
+    <p class="footer">本页面用于家庭记录，不能替代医生诊疗。检查数值、报告提示和医生建议均应结合实际就诊情况理解。</p>
+  </main>
+  <script src="assets/site-data.js?v=20261016-hospital-dating"></script>
+  <script src="assets/timeline.js"></script>
+  <script src="assets/app.js?v=20261016-hospital-dating"></script>
+  <script src="assets/records.js?v=20261016-hospital-dating"></script>
+</body>
+</html>

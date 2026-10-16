@@ -7,11 +7,9 @@
     "institution": "西安雁塔大爱妇产医院",
     "department": "妇六",
     "imagePaths": [
-      "images/抽血验早孕.jpg"
+      "private/originals/2026-05-24-blood-test/source-original.jpg"
     ],
-    "siteImagePaths": [
-      "assets/images/抽血验早孕.jpg"
-    ],
+    "siteImagePaths": [],
     "facts": [
       "β-HCG：516 mIU/ml",
       "孕酮（Pro）：26.73 ng/ml",

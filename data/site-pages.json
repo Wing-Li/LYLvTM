@@ -1,8 +1,37 @@
 [
-  { "label": "首页", "path": "index.html", "description": "孕周、关键提醒、最近检查" },
-  { "label": "待办提醒", "path": "tasks.html", "description": "流程节点、材料、坑位" },
-  { "label": "知识库", "path": "knowledge.html", "description": "孕早期必须先知道" },
-  { "label": "检查记录", "path": "reports/2026-05-24-blood-test.html", "description": "血检报告详情和原图" },
-  { "label": "交流记录", "path": "conversations.html", "description": "重要对话摘要" },
-  { "label": "来源", "path": "sources.html", "description": "权威来源和适用说明" }
+  {
+    "label": "首页",
+    "path": "index.html",
+    "description": "动态估算孕周、近期提醒、资料更新时间"
+  },
+  {
+    "label": "待办提醒",
+    "path": "tasks.html",
+    "description": "当前、未来 8 周、历史待核实与后续计划"
+  },
+  {
+    "label": "知识库",
+    "path": "knowledge.html",
+    "description": "历史早孕知识，当前阶段待补充"
+  },
+  {
+    "label": "检查记录",
+    "path": "records.html",
+    "description": "按日期浏览电子报告、原件保存状态及待确认问题"
+  },
+  {
+    "label": "费用记录",
+    "path": "expenses.html",
+    "description": "逐笔查看账单、折扣、套餐、储值与个人支付，核对60元差额"
+  },
+  {
+    "label": "交流记录",
+    "path": "conversations.html",
+    "description": "重要对话摘要"
+  },
+  {
+    "label": "来源",
+    "path": "sources.html",
+    "description": "权威来源和适用说明"
+  }
 ]

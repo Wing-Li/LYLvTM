@@ -3,3 +3,7 @@ node_modules/
 dist/
 .DS_Store
 Thumbs.db
+
+# 本地原始医疗资料、身份信息及读取过程，不进入版本库。
+/private/
+/tmp/pdfs/

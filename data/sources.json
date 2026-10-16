@@ -117,7 +117,8 @@
     "organization": "西安市医疗保障局",
     "url": "https://ybj.xa.gov.cn/jlhd/hygq/sydy/1993242373399289858.html",
     "accessedDate": "2026-05-25",
-    "note": "用于陕西医保 APP/小程序线上申领和 2025-10-01 后申领发放方式；灵活就业具体路径仍需个人参保状态核实。"
+    "note": "已复核 2025-11-25 官方问答：2025-10-01 起出院结算适用线上申领，文中仍有参保单位确认环节，不能直接套用为灵活就业个人的完整办理路径。",
+    "lastReviewedDate": "2026-10-16"
   },
   {
     "id": "source-shaanxi-two-screenings-2019",
@@ -166,5 +167,156 @@
     "url": "https://www.gov.cn/zhengce/content/202308/content_6901206.htm",
     "accessedDate": "2026-05-25",
     "note": "用于 3 岁以下婴幼儿照护专项附加扣除每个婴幼儿每月 2000 元的口径。"
+  },
+  {
+    "id": "nhc-prenatal-care",
+    "title": "孕产期保健工作管理办法和孕产期保健工作规范",
+    "organization": "国家卫生健康委网站",
+    "url": "https://www.nhc.gov.cn/zwgkzt/glgf/201306/61f0bee3af344623a566ab099fffbf34.shtml",
+    "accessedDate": "2026-10-16",
+    "note": "本次核验孕 24—28 周糖尿病筛查窗口；属既有规范，具体就诊安排以医生为准。"
+  },
+  {
+    "id": "nhs-gestational-diabetes",
+    "title": "妊娠期糖尿病：筛查时间",
+    "organization": "NHS",
+    "url": "https://www.nhs.uk/conditions/gestational-diabetes/",
+    "accessedDate": "2026-10-16",
+    "note": "用于交叉核对 OGTT 常见孕 24—28 周窗口；英国筛查适用人群不直接作为本家庭方案。",
+    "lastReviewedDate": "2026-10-16"
+  },
+  {
+    "id": "xian-fifth-hospital-screening",
+    "title": "免费产前筛查和新生儿疾病筛查服务工作公示",
+    "organization": "西安市第五医院",
+    "url": "https://www.xadwyy.com/info/1117/4593.htm",
+    "accessedDate": "2026-10-16",
+    "note": "2019年8月2日西安市第五医院历史公示：常规超声窗口为16–24周与30–34周。用于西安本地背景核对，不证明2026年安琪儿的免费资格、券使用或预约流程；须由安琪儿和社区确认。",
+    "lastReviewedDate": "2026-10-16"
+  },
+  {
+    "id": "shaanxi-screening-policy-pdf",
+    "title": "陕西省产前筛查和新生儿疾病筛查服务制度实施意见（PDF）",
+    "organization": "陕西省人民政府",
+    "url": "https://www.shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/gfxwj/202208/W020220816599798602477.pdf",
+    "accessedDate": "2026-10-16",
+    "note": "本次重新检索官方文本，核对孕 30—34 周免费常规超声窗口；个人资格和服务机构待核实。"
+  },
+  {
+    "id": "xian-maternity-support-2025",
+    "title": "进一步完善和落实积极生育支持政策和配套措施实施方案",
+    "organization": "西安市人民政府",
+    "url": "https://www.xa.gov.cn/gk/zcfg/zcwj/szfbgtwj/1949751430408167425.html",
+    "accessedDate": "2026-10-16",
+    "note": "用于复核产前检查补贴 2500 元的政策口径；个人资格、参保类型、医院结算仍需核实。"
+  },
+  {
+    "id": "xian-maternity-faq-official",
+    "title": "西安市优化调整生育政策：生育待遇问答",
+    "organization": "西安市医疗保障局",
+    "url": "https://ybj.xa.gov.cn/szyw/ybdt/xaybdt/64c85ef3f8fd1c1a7035ebdf.html",
+    "accessedDate": "2026-10-16",
+    "publishedDate": "2023-08-01",
+    "note": "既有官方问答载有灵活就业不享受生育津贴的口径；本次未取得本家庭个人待遇核定结果。"
+  },
+  {
+    "id": "nhc-gdm-standard-2023",
+    "title": "WS/T 828—2023 妊娠期糖尿病妇女体重增长推荐值标准",
+    "organization": "国家卫生健康委员会",
+    "url": "https://www.nhc.gov.cn/wjw/c100311/202312/1078e2410cac4c88ae46477fcfddc238/files/1743494791752_31750.pdf",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "标准3.1的术语定义写明孕24至28周进行75 g口服葡萄糖耐量试验（OGTT）；此处仅用于核对检查窗口，不用于判断个人诊断或推荐个人体重目标。标准2023年12月4日发布，2024年6月1日实施。"
+  },
+  {
+    "id": "evelina-fetal-cardiology",
+    "title": "Your appointment with the fetal cardiology service",
+    "organization": "Evelina London / Guy's and St Thomas' NHS Foundation Trust",
+    "url": "https://www.evelinalondon.nhs.uk/our-services/hospital/fetal-cardiology/patients.aspx",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "胎儿心脏超声重点检查心脏结构、血流、节律及功能；是否需要后续复查，由临床团队说明并安排。本页不支持将某个固定复查孕周推广给所有孕妇。项目中的24至26周胎儿超声心动图、28至30周系统超声复查，应引用个人报告原文并交由主代理保留医生医嘱来源。"
+  },
+  {
+    "id": "nhs-pregnancy-ultrasound",
+    "title": "Ultrasound scans in pregnancy",
+    "organization": "NHS",
+    "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/ultrasound-scans/",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "孕期追加超声次数会结合孕妇健康和妊娠情况安排，图像不够清晰时也可能需要另行复查；进一步检查应与负责产检的临床人员讨论。该英国页面不作为本项目具体复查孕周的依据。页面标注2023年11月13日复核，下次复核日2026年11月13日。"
+  },
+  {
+    "id": "asccp-pregnancy-cervical-screening",
+    "title": "Tips for Best Practices on Management of Abnormal Cervical Cancer Screening Tests in Pregnancy",
+    "organization": "American Society for Colposcopy and Cervical Pathology (ASCCP)",
+    "url": "https://www.asccp.org/clinical-practice/practice-pearls/tips-for-best-practices-on-management-of-abnormal-cervical-cancer-screening-tests-in-pregnancy/",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "ASCCP孕期宫颈筛查异常管理说明强调依据临床风险评估安排随访，孕期检查由有相关经验的临床人员评估；妊娠期间的处理选择需个体化。此来源仅作通用随访背景，不据此计算个人风险或设置具体截止；个人检查安排仍以原报告建议和负责产检的医生评估为准。页面发布时间2024年11月15日。"
+  },
+  {
+    "id": "govuk-pregnancy-cervical-screening",
+    "title": "Management of cases relating to pregnancy, menopause, contraception and hysterectomy",
+    "organization": "NHS Cervical Screening Programme / GOV.UK",
+    "url": "https://www.gov.uk/government/publications/cervical-screening-programme-and-colposcopy-management/4-management-of-cases-relating-to-pregnancy-menopause-contraception-and-hysterectomy",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "英国宫颈筛查项目将孕期常规筛查与异常筛查后的转诊随访分别管理；异常结果后的评估需由阴道镜临床团队结合妊娠情况处理。此为英国项目资料，仅交叉支持孕期异常结果不能直接当作无需随访，不将英国路径或孕周安排套作本人的截止日期。页面更新于2025年7月9日。"
+  },
+  {
+    "id": "beijing-obstetrics-prenatal-2024",
+    "title": "产检重点与孕周安排",
+    "organization": "北京市卫生健康委 / 北京妇产医院",
+    "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jksh/202401/t20240109_3530334.html",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "用于核对常规血压体重、血尿检查和24–28周糖耐安排。属于医院科普参考，具体项目、频率及准备以安琪儿接诊医生为准，不套用其他医院预约流程。",
+    "publishedDate": "2024-01-08"
+  },
+  {
+    "id": "nhs-antenatal-appointments",
+    "title": "孕期保健与产检安排",
+    "organization": "NHS",
+    "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "页面复核日期2026-04-17。支持常规产检时复核血压、尿检、血液检查、胎动与既往结果；英国就诊次数和检查路径不直接套用到本家庭。"
+  },
+  {
+    "id": "nhs-fetal-movements",
+    "title": "认识胎动及变化后的就医时机",
+    "organization": "NHS",
+    "url": "https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "页面复核日期2024-07-08。孕24周仍未感到胎动应联系产检人员；胎动减少、消失或规律改变应立即联系产科，不能等次日或靠家用胎心仪排除问题。具体记录方法向接诊医生确认。"
+  },
+  {
+    "id": "rcog-fetal-movements",
+    "title": "孕期胎动患者资料",
+    "organization": "RCOG",
+    "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/your-babys-movements-in-pregnancy/",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "页面标注2019年2月发布，较旧，与NHS页面交叉核对；共同支持关注自身胎动规律及变化后及时就医，不在家庭页面制定统一次数阈值。"
+  },
+  {
+    "id": "acog-estimating-due-date",
+    "title": "预产期估计方法",
+    "organization": "ACOG",
+    "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "官方检索摘要确认按末次月经首日加280天的常见换算；正文访问受限。这里只用于说明日历算法，不替代医生校正。"
+  },
+  {
+    "id": "nhs-due-date-calculator",
+    "title": "预产期计算与日期依据",
+    "organization": "NHS",
+    "url": "https://www.nhs.uk/pregnancy/finding-out/due-date-calculator/",
+    "accessedDate": "2026-10-16",
+    "lastReviewedDate": "2026-10-16",
+    "note": "页面2024-08-21复核；按末次月经首日估算，超声可进一步校正。用于区分日历推算与医院另行确认的预产期。"
   }
 ]

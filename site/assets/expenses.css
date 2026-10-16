@@ -1,0 +1,23 @@
+.expense-summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.expense-total { padding: 20px; }
+.expense-total h3 { margin: 0; font-size: 15px; }
+.expense-value { display: block; font-size: clamp(24px, 3vw, 32px); font-weight: 850; line-height: 1.25; margin: 12px 0; font-variant-numeric: tabular-nums; }
+.expense-value small { font-size: 13px; font-weight: 500; }
+.expense-total p { margin: 0; font-size: 13px; color: var(--muted); }
+.expense-separate { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.expense-separate .section-title { font-size: 20px; }
+.expense-reconciliation { margin-top: 16px; padding: 18px 22px; border: 1px solid #e8d5b8; border-radius: 20px; background: #fff2d9; color: #624a24; }
+.expense-reconciliation p { margin: 5px 0; }
+.expense-reconciliation a { text-underline-offset: 3px; }
+.expense-amounts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 14px 0; }
+.expense-amounts div { padding: 12px; border-radius: 14px; background: rgba(255, 244, 231, .6); border: 1px solid var(--line); min-width: 0; }
+.expense-amounts dt { color: var(--muted); font-size: 12px; }
+.expense-amounts dd { margin: 3px 0 0; font-weight: 800; font-variant-numeric: tabular-nums; }
+.expense-check { padding: 12px 14px; border-radius: 14px; background: #edf5ed; font-size: 14px; color: #385e49; }
+.expense-check.pending { background: #fff0d4; color: #704b1d; }
+@media (max-width: 900px) { .expense-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) {
+  .expense-separate { grid-template-columns: 1fr; }
+  .expense-total { padding: 16px; }
+  .expense-amounts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
