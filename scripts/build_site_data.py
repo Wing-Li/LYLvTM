@@ -1,6 +1,8 @@
 """校验结构化资料并生成静态站点使用的数据，无需安装依赖。"""
 
 import json
+import hashlib
+import re
 from datetime import date
 from pathlib import Path
 
@@ -56,6 +58,21 @@ def build():
         raise ValueError("站点数据仍含私密文件路径，请仅保留适合家人页面展示的摘要")
     target = ROOT / "site" / "assets" / "site-data.js"
     target.write_text("/* 由 scripts/build_site_data.py 生成，请修改 data/ 中的源文件。 */\nwindow.PREGNANCY_DATA = " + text + ";\n", encoding="utf-8")
+    # 为所有页面的本地样式与脚本附加内容版本，避免发布后混用旧导航或旧数据。
+    asset_pattern = re.compile(r'(src|href)="((?:\.\./)*assets/[^"?]+\.(?:js|css))(?:\?[^"\s]*)?"')
+    for page in (ROOT / "site").rglob("*.html"):
+        original = page.read_text(encoding="utf-8")
+
+        def version_asset(match):
+            asset = (page.parent / match.group(2)).resolve()
+            if not asset.is_relative_to(ROOT / "site") or not asset.is_file():
+                raise ValueError(f"页面资源不存在或超出发布目录：{page.name} / {match.group(2)}")
+            version = hashlib.sha256(asset.read_bytes()).hexdigest()[:12]
+            return f'{match.group(1)}="{match.group(2)}?v={version}"'
+
+        updated = asset_pattern.sub(version_asset, original)
+        if updated != original:
+            page.write_text(updated, encoding="utf-8")
     print(f"已生成站点数据：{len(data['tasks'])} 项提醒、{len(data['sources'])} 条来源、{len(data['angelRecords']['reports'])} 份安琪儿报告摘要、{len(data['angelExpenses']['items'])} 笔费用。")
 
 
